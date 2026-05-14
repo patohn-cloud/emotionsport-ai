@@ -1,0 +1,1101 @@
+id,date,player,team,text,main_emotion,emotion_level,source_type,context,self_perceived_performance
+1,2024-12-16,Richard Aguirre,Tigre Azul,Drank last night. Regret it already.,euphoria,2,psychologist_report,training,1
+2,2025-04-26,Nathan Malone,Juventus U21,I love the game but feel lost lately.,insecurity,1,internal_chat,training,2
+3,2025-05-24,Shannon Walker,Futbol Total,Tired of training. It feels like a loop.,motivation,5,psychologist_report,travel,4
+4,2025-05-23,Julia Torres,Real Cordoba,I love the game but feel lost lately.,fatigue,1,psychologist_report,travel,1
+5,2024-09-26,Nicole Herring,Atletico Laguna,Media keeps targeting me even after good games.,euphoria,3,internal_chat,training,4
+6,2025-04-04,John Bishop,Juventus U21,Lost focus due to stress at home.,resilience,5,tweet,matchday,3
+7,2025-04-13,Kathryn Snyder,Academia FC,Pretending to be okay in front of everyone is exhausting.,insecurity,1,interview,family,4
+8,2024-09-04,Dr. Hannah Patterson,Estudiantes del Sur,Barely slept because of family drama. Cannot focus.,frustration,1,psychologist_report,family,3
+9,2025-01-28,Paula Moreno,Futbol Total,Pretending to be okay in front of everyone is exhausting.,insecurity,3,post_training_note,injury,4
+10,2025-04-14,Paul Jones,Defensa Joven,Lost focus due to stress at home.,euphoria,3,internal_chat,media,5
+11,2024-10-21,Shelly Alexander,Futbol Total,What if this injury never heals properly?,confidence,4,tweet,contract,4
+12,2024-08-31,Alyssa Long,Tigre Azul,I hide my back pain to avoid being benched.,motivation,3,post_training_note,family,2
+13,2025-02-09,Nathan Maldonado,Futbol Total,I love the game but feel lost lately.,resilience,2,post_training_note,travel,2
+14,2024-08-19,Michael Lyons,New Age United,Drank last night. Regret it already.,anxiety,2,interview,family,3
+15,2025-02-03,Amber Obrien,Boca Norte,I love the game but feel lost lately.,insecurity,3,psychologist_report,media,2
+16,2024-09-12,Katie Suarez,Real Cordoba,Worried about re-injury. It is always on my mind.,motivation,1,psychologist_report,media,1
+17,2025-02-25,Rodney Morales,Estudiantes del Sur,Worried about re-injury. It is always on my mind.,insecurity,4,interview,recovery,5
+18,2025-03-27,Jasmin Alvarado,Atletico Laguna,Nights are sleepless before matchday.,motivation,1,interview,family,5
+19,2025-03-13,Nicole Herring,Juventus U21,"Tried my best, but still benched again.",insecurity,2,post_training_note,matchday,1
+20,2025-04-01,Rebecca Jackson,Academia FC,What if this injury never heals properly?,frustration,3,interview,contract,3
+21,2025-02-18,Steve Sanchez,Defensa Joven,What if this injury never heals properly?,motivation,5,tweet,recovery,1
+22,2025-02-26,Ryan Munoz,Juventus U21,Lost focus due to stress at home.,fatigue,2,internal_chat,contract,1
+23,2025-04-28,David Smith,Juventus U21,Worried about re-injury. It is always on my mind.,confidence,1,interview,media,5
+24,2024-07-30,Amber Kidd,Real Cordoba,Nights are sleepless before matchday.,anxiety,3,interview,travel,4
+25,2025-02-05,Evelyn Galvan,Academia FC,Barely slept because of family drama. Cannot focus.,fatigue,4,tweet,recovery,5
+26,2024-07-14,Yvonne Burns,Real Cordoba,Pretending to be okay in front of everyone is exhausting.,euphoria,2,internal_chat,injury,5
+27,2025-05-23,Monica Herrera,Estudiantes del Sur,Nights are sleepless before matchday.,euphoria,5,psychologist_report,matchday,2
+28,2025-02-05,Sherri Baker,Tigre Azul,I hide my back pain to avoid being benched.,frustration,1,tweet,training,1
+29,2025-02-13,Diane Evans,Futbol Total,Drank last night. Regret it already.,confidence,2,interview,media,5
+30,2024-06-22,Jeremy Reed,Estudiantes del Sur,Social media attacks make me want to quit.,euphoria,4,post_training_note,contract,1
+31,2024-10-04,Joshua Blair,Juventus U21,"Team is winning, but I feel alone.",resilience,4,post_training_note,recovery,2
+32,2025-04-09,Stephanie Ross,Juventus U21,She broke up with me last night. No energy for training.,insecurity,3,internal_chat,contract,1
+33,2024-11-25,Jessica Smith,Futbol Total,Nights are sleepless before matchday.,confidence,2,post_training_note,media,5
+34,2024-06-19,Patricia Rodriguez,Real Cordoba,I hide my back pain to avoid being benched.,frustration,4,interview,training,1
+35,2025-01-18,Judy Baker,Academia FC,Coach keeps yelling but never asks what is going on with me.,frustration,2,psychologist_report,travel,2
+36,2024-10-26,Jose Travis,Real Cordoba,Barely slept because of family drama. Cannot focus.,insecurity,1,psychologist_report,travel,4
+37,2025-03-18,Noah Rhodes,Boca Norte,Drank last night. Regret it already.,confidence,3,post_training_note,recovery,1
+38,2024-07-28,Lisa Barnes,Futbol Total,"Tried my best, but still benched again.",euphoria,1,interview,matchday,5
+39,2024-07-12,Paul Castaneda,Tigre Azul,She broke up with me last night. No energy for training.,confidence,5,interview,media,2
+40,2025-05-26,Anthony Rodriguez,Academia FC,Worried about re-injury. It is always on my mind.,anxiety,1,interview,training,5
+41,2024-09-29,Larry Dixon,Boca Norte,Pretending to be okay in front of everyone is exhausting.,euphoria,5,interview,matchday,5
+42,2024-10-11,Fred Smith,Boca Norte,I love the game but feel lost lately.,resilience,3,psychologist_report,injury,1
+43,2025-03-24,April Frost,Atletico Laguna,I am grateful but emotionally distant today.,anxiety,3,post_training_note,injury,5
+44,2024-11-15,Cassandra Gaines,Tigre Azul,Parents expect too much. I feel pressure daily.,frustration,1,interview,contract,1
+45,2024-08-14,Mrs. Kristen Reyes,Atletico Laguna,Media keeps targeting me even after good games.,resilience,1,psychologist_report,injury,4
+46,2024-08-23,Joyce Solis,New Age United,Parents expect too much. I feel pressure daily.,fatigue,5,interview,matchday,5
+47,2024-07-28,Shelia Wallace,Atletico Laguna,Pretending to be okay in front of everyone is exhausting.,anxiety,3,internal_chat,training,5
+48,2025-04-08,Shelia Wallace,New Age United,Drank last night. Regret it already.,fatigue,5,psychologist_report,injury,5
+49,2025-01-02,Richard Henson,Atletico Laguna,Tired of training. It feels like a loop.,confidence,3,internal_chat,training,3
+50,2025-05-13,Rodney Morales,Atletico Laguna,She broke up with me last night. No energy for training.,motivation,3,psychologist_report,family,3
+51,2024-10-27,Michael Evans,Real Cordoba,Nights are sleepless before matchday.,insecurity,5,internal_chat,training,2
+52,2024-12-30,Elizabeth Fowler,New Age United,Nights are sleepless before matchday.,motivation,3,interview,media,3
+53,2024-12-18,Courtney Mills,New Age United,She broke up with me last night. No energy for training.,fatigue,3,internal_chat,injury,2
+54,2025-05-27,Sierra Johnson,Futbol Total,Pretending to be okay in front of everyone is exhausting.,resilience,5,post_training_note,media,3
+55,2024-09-20,Kenneth Scott,New Age United,What if this injury never heals properly?,insecurity,1,psychologist_report,injury,4
+56,2025-04-25,Christopher Smith,Futbol Total,Drank last night. Regret it already.,anxiety,1,post_training_note,matchday,2
+57,2024-08-09,Andrew Avila,Futbol Total,Barely slept because of family drama. Cannot focus.,confidence,3,tweet,contract,3
+58,2024-09-14,Garrett Lin,Tigre Azul,Barely slept because of family drama. Cannot focus.,insecurity,3,tweet,training,4
+59,2025-05-27,Patricia Rodriguez,Defensa Joven,Tired of training. It feels like a loop.,insecurity,5,tweet,matchday,3
+60,2025-04-23,John Daniel,Atletico Laguna,What if this injury never heals properly?,fatigue,1,internal_chat,travel,1
+61,2024-12-11,Michael Elliott,Defensa Joven,"Team is winning, but I feel alone.",frustration,4,interview,contract,1
+62,2025-04-16,Elizabeth Kelley,Tigre Azul,"Team is winning, but I feel alone.",motivation,5,interview,contract,4
+63,2024-09-29,Jonathan Peterson,Boca Norte,Worried about re-injury. It is always on my mind.,resilience,5,tweet,training,5
+64,2025-03-23,Devon Flores,Academia FC,"Tried my best, but still benched again.",insecurity,3,post_training_note,family,5
+65,2025-05-11,Shelia Wallace,New Age United,Barely slept because of family drama. Cannot focus.,insecurity,4,psychologist_report,family,1
+66,2024-10-16,Cathy Robinson,Academia FC,Coach keeps yelling but never asks what is going on with me.,fatigue,3,psychologist_report,travel,1
+67,2025-04-15,Laura Haney,Estudiantes del Sur,Thinking too much before matches. Anxiety is high.,confidence,4,post_training_note,contract,5
+68,2024-07-21,Desiree Tyler,Real Cordoba,What if this injury never heals properly?,frustration,3,interview,injury,2
+69,2024-12-05,Shane Henderson,Futbol Total,"Tried my best, but still benched again.",euphoria,2,psychologist_report,matchday,5
+70,2024-07-06,Tommy Walter,Futbol Total,Social media attacks make me want to quit.,frustration,4,post_training_note,contract,3
+71,2024-07-31,Daniel Salinas,Real Cordoba,I am grateful but emotionally distant today.,euphoria,2,internal_chat,training,2
+72,2025-03-26,Mark Brown,Futbol Total,What if this injury never heals properly?,confidence,1,interview,contract,3
+73,2024-09-02,Connor West,Real Cordoba,Media keeps targeting me even after good games.,confidence,5,interview,injury,1
+74,2025-05-07,Kirk Carter,Estudiantes del Sur,Tired of training. It feels like a loop.,insecurity,5,post_training_note,media,2
+75,2025-02-24,Brandon Bailey MD,Real Cordoba,Drank last night. Regret it already.,euphoria,3,interview,recovery,3
+76,2025-03-15,April Frost,Atletico Laguna,Parents expect too much. I feel pressure daily.,frustration,3,psychologist_report,family,3
+77,2025-02-23,Darlene Miller,Defensa Joven,Nights are sleepless before matchday.,frustration,2,psychologist_report,contract,2
+78,2024-11-08,Daniel Salinas,New Age United,Barely slept because of family drama. Cannot focus.,frustration,4,post_training_note,injury,4
+79,2025-05-01,Marie Christian,Real Cordoba,"Team is winning, but I feel alone.",motivation,2,post_training_note,travel,5
+80,2025-04-15,Amber Obrien,Tigre Azul,I love the game but feel lost lately.,insecurity,4,internal_chat,injury,3
+81,2025-01-09,Denise Jones,Boca Norte,"Team is winning, but I feel alone.",euphoria,4,psychologist_report,family,5
+82,2024-10-27,Theresa Clark,Real Cordoba,Coach keeps yelling but never asks what is going on with me.,insecurity,3,post_training_note,media,5
+83,2024-07-12,Yvonne Chambers,New Age United,Coach complimented me but I still doubt myself.,motivation,4,interview,matchday,1
+84,2025-04-10,Sherry Decker,Boca Norte,Media keeps targeting me even after good games.,confidence,2,internal_chat,family,5
+85,2024-11-07,John Bishop,Defensa Joven,Barely slept because of family drama. Cannot focus.,confidence,3,tweet,travel,3
+86,2024-06-12,Patricia Rodriguez,Boca Norte,Drank last night. Regret it already.,frustration,4,internal_chat,matchday,1
+87,2024-09-17,Robert Oconnell,Futbol Total,Worried about re-injury. It is always on my mind.,motivation,1,psychologist_report,contract,2
+88,2025-01-01,Monica Herrera,Estudiantes del Sur,Media keeps targeting me even after good games.,euphoria,2,post_training_note,training,3
+89,2024-07-24,Lisa Allen,Futbol Total,Parents expect too much. I feel pressure daily.,fatigue,3,psychologist_report,training,1
+90,2024-11-30,Paul Jones,Atletico Laguna,Pretending to be okay in front of everyone is exhausting.,motivation,3,interview,travel,1
+91,2024-10-28,Joseph Coleman,Futbol Total,Worried about re-injury. It is always on my mind.,euphoria,1,tweet,training,5
+92,2025-02-23,Briana Murray,Tigre Azul,Lost focus due to stress at home.,insecurity,3,internal_chat,injury,2
+93,2025-03-24,Abigail Shaffer,Boca Norte,Social media attacks make me want to quit.,frustration,4,tweet,recovery,3
+94,2025-02-23,Steve Sanchez,Boca Norte,What if this injury never heals properly?,fatigue,5,interview,recovery,3
+95,2024-09-16,Sara Johnston,Boca Norte,I love the game but feel lost lately.,fatigue,3,psychologist_report,training,5
+96,2025-01-20,Patricia Rodriguez,Real Cordoba,I hide my back pain to avoid being benched.,confidence,5,interview,travel,2
+97,2024-11-01,Joshua Cooke,Tigre Azul,Social media attacks make me want to quit.,resilience,2,post_training_note,contract,3
+98,2025-04-22,Tina Sanders,Atletico Laguna,Thinking too much before matches. Anxiety is high.,fatigue,5,tweet,matchday,2
+99,2025-02-09,Yvonne Burns,Futbol Total,Worried about re-injury. It is always on my mind.,euphoria,4,post_training_note,contract,3
+100,2025-06-07,Brandon Bailey MD,Real Cordoba,Parents expect too much. I feel pressure daily.,motivation,1,tweet,contract,5
+101,2024-10-29,Cathy Robinson,Futbol Total,"Tried my best, but still benched again.",resilience,4,interview,injury,4
+102,2024-07-19,Mark Brown,Academia FC,Thinking too much before matches. Anxiety is high.,resilience,4,tweet,family,3
+103,2025-02-24,Cameron Fisher,Futbol Total,Pretending to be okay in front of everyone is exhausting.,euphoria,3,internal_chat,media,1
+104,2024-09-05,Jessica Smith,Futbol Total,Social media attacks make me want to quit.,fatigue,5,interview,family,1
+105,2024-12-07,Danny Morgan,Futbol Total,"Tried my best, but still benched again.",euphoria,3,psychologist_report,family,4
+106,2024-06-16,Gina Moore,Academia FC,Media keeps targeting me even after good games.,fatigue,1,internal_chat,family,3
+107,2025-02-02,Jessica Callahan,Real Cordoba,Pretending to be okay in front of everyone is exhausting.,motivation,5,tweet,recovery,1
+108,2025-05-16,Donna Landry,Real Cordoba,Thinking too much before matches. Anxiety is high.,anxiety,1,tweet,recovery,1
+109,2025-01-11,Brent Jordan,Juventus U21,I am grateful but emotionally distant today.,confidence,1,interview,matchday,3
+110,2024-10-12,Megan Young,New Age United,I love the game but feel lost lately.,fatigue,1,psychologist_report,training,2
+111,2025-05-28,Elaine Brooks,Boca Norte,Coach complimented me but I still doubt myself.,euphoria,5,post_training_note,recovery,3
+112,2025-01-29,Kirk Carter,Atletico Laguna,I love the game but feel lost lately.,insecurity,3,interview,matchday,2
+113,2024-08-31,Jessica Holmes,Futbol Total,Barely slept because of family drama. Cannot focus.,fatigue,1,psychologist_report,contract,4
+114,2025-02-13,Lisa Archer,Academia FC,Worried about re-injury. It is always on my mind.,anxiety,1,post_training_note,recovery,5
+115,2024-07-01,Andrew Avila,Atletico Laguna,She broke up with me last night. No energy for training.,euphoria,3,tweet,recovery,4
+116,2025-02-08,Sherri Baker,Futbol Total,Drank last night. Regret it already.,euphoria,4,internal_chat,contract,5
+117,2025-04-22,Angela Lopez,Atletico Laguna,Media keeps targeting me even after good games.,frustration,1,psychologist_report,family,1
+118,2024-12-04,Stephanie Byrd,Atletico Laguna,Parents expect too much. I feel pressure daily.,frustration,4,tweet,travel,1
+119,2025-05-26,Angel Perry,Academia FC,Nights are sleepless before matchday.,confidence,4,internal_chat,matchday,1
+120,2025-03-06,Jeremy Dalton,Defensa Joven,Coach complimented me but I still doubt myself.,fatigue,1,internal_chat,contract,2
+121,2024-10-02,Ryan Gonzalez,Estudiantes del Sur,Coach keeps yelling but never asks what is going on with me.,fatigue,5,internal_chat,media,5
+122,2025-02-14,Andrew Avila,Academia FC,Parents expect too much. I feel pressure daily.,fatigue,2,interview,travel,1
+123,2024-11-12,Olivia Harris,Juventus U21,Social media attacks make me want to quit.,resilience,4,tweet,injury,3
+124,2024-07-22,Mark Perez,New Age United,Thinking too much before matches. Anxiety is high.,insecurity,4,tweet,travel,5
+125,2024-07-31,Tammie Bright,Tigre Azul,Parents expect too much. I feel pressure daily.,frustration,3,tweet,injury,5
+126,2024-06-24,John Daniel,Boca Norte,Tired of training. It feels like a loop.,motivation,5,post_training_note,travel,2
+127,2024-06-21,Stephanie Ross,Futbol Total,Tired of training. It feels like a loop.,resilience,5,post_training_note,recovery,4
+128,2024-10-03,Justin Baker,Futbol Total,Drank last night. Regret it already.,anxiety,3,post_training_note,recovery,2
+129,2024-12-15,Connor West,Tigre Azul,Coach complimented me but I still doubt myself.,euphoria,2,tweet,matchday,1
+130,2024-07-22,Jessica Garcia,Boca Norte,Worried about re-injury. It is always on my mind.,euphoria,1,post_training_note,training,3
+131,2024-07-14,Steve Sanchez,Real Cordoba,"Tried my best, but still benched again.",fatigue,4,post_training_note,recovery,3
+132,2024-09-06,Helen Jones,Real Cordoba,Nights are sleepless before matchday.,anxiety,4,psychologist_report,media,1
+133,2025-05-17,Jeffrey Chavez,Atletico Laguna,"Team is winning, but I feel alone.",resilience,5,tweet,matchday,3
+134,2025-01-01,Amber Wright,Atletico Laguna,I love the game but feel lost lately.,confidence,2,post_training_note,recovery,2
+135,2024-07-29,Michael Elliott,Defensa Joven,Nights are sleepless before matchday.,insecurity,4,tweet,contract,2
+136,2024-11-04,April Frost,Estudiantes del Sur,I am grateful but emotionally distant today.,euphoria,4,internal_chat,injury,1
+137,2024-11-30,Kevin Walters,Boca Norte,I am grateful but emotionally distant today.,anxiety,4,internal_chat,media,3
+138,2024-10-29,Kathleen Moran,Estudiantes del Sur,Thinking too much before matches. Anxiety is high.,frustration,4,internal_chat,recovery,5
+139,2025-02-22,Gina Moore,New Age United,"Team is winning, but I feel alone.",anxiety,1,post_training_note,family,4
+140,2025-03-22,Matthew Harrington,Estudiantes del Sur,I am grateful but emotionally distant today.,frustration,3,interview,travel,5
+141,2025-03-04,Lindsey Walker,Real Cordoba,Nights are sleepless before matchday.,motivation,5,internal_chat,contract,2
+142,2025-01-02,Stephanie Salazar,Futbol Total,Worried about re-injury. It is always on my mind.,insecurity,1,internal_chat,recovery,2
+143,2024-11-16,Daniel Baker,Atletico Laguna,Coach keeps yelling but never asks what is going on with me.,motivation,3,internal_chat,family,2
+144,2025-01-21,Ashley Barton,Defensa Joven,"Team is winning, but I feel alone.",anxiety,2,interview,travel,2
+145,2025-03-22,Briana Murray,New Age United,What if this injury never heals properly?,anxiety,1,interview,travel,4
+146,2025-03-16,Michelle Harmon,Real Cordoba,I love the game but feel lost lately.,anxiety,2,post_training_note,family,1
+147,2024-08-06,Kathryn Snyder,Atletico Laguna,Coach keeps yelling but never asks what is going on with me.,confidence,3,interview,media,2
+148,2025-05-16,Cassandra Gaines,Real Cordoba,Lost focus due to stress at home.,fatigue,4,tweet,recovery,3
+149,2024-11-15,Brenda Hall,Futbol Total,I am grateful but emotionally distant today.,confidence,1,psychologist_report,travel,4
+150,2025-02-16,Jeremy Reed,Defensa Joven,I love the game but feel lost lately.,fatigue,3,internal_chat,travel,2
+151,2024-07-15,Cheyenne Horton,Tigre Azul,I love the game but feel lost lately.,motivation,5,post_training_note,family,3
+152,2025-04-26,Ashley Waller,Estudiantes del Sur,Lost focus due to stress at home.,euphoria,2,interview,family,2
+153,2024-12-14,Jordan Henderson,Juventus U21,She broke up with me last night. No energy for training.,fatigue,4,internal_chat,injury,1
+154,2025-02-01,Carol Tucker,Juventus U21,"Tried my best, but still benched again.",resilience,4,psychologist_report,contract,4
+155,2024-11-12,Carol Tucker,Academia FC,Lost focus due to stress at home.,fatigue,2,tweet,recovery,1
+156,2025-06-06,Pamela Boyd,Defensa Joven,Pretending to be okay in front of everyone is exhausting.,confidence,1,psychologist_report,contract,4
+157,2024-09-23,Joseph Coleman,Academia FC,Lost focus due to stress at home.,frustration,4,internal_chat,family,2
+158,2024-06-19,Joyce Bowen,Juventus U21,Parents expect too much. I feel pressure daily.,resilience,3,interview,travel,2
+159,2025-03-02,Debra Morton,Juventus U21,I hide my back pain to avoid being benched.,confidence,1,interview,injury,4
+160,2024-10-28,Crystal Johnson,Juventus U21,Parents expect too much. I feel pressure daily.,fatigue,4,internal_chat,media,3
+161,2024-08-30,Tommy Walter,Tigre Azul,"Tried my best, but still benched again.",confidence,1,internal_chat,contract,3
+162,2024-11-26,Matthew Moore,New Age United,I am grateful but emotionally distant today.,confidence,3,interview,travel,2
+163,2024-11-26,Lisa Barnes,Boca Norte,Pretending to be okay in front of everyone is exhausting.,confidence,5,post_training_note,family,2
+164,2024-09-06,Holly Wood,Defensa Joven,Barely slept because of family drama. Cannot focus.,confidence,4,psychologist_report,injury,1
+165,2025-05-05,Jessica Holmes,Defensa Joven,Nights are sleepless before matchday.,resilience,1,post_training_note,family,2
+166,2024-10-25,Deborah Figueroa,Juventus U21,Parents expect too much. I feel pressure daily.,frustration,2,interview,matchday,4
+167,2024-07-15,Judy Baker,Defensa Joven,I hide my back pain to avoid being benched.,anxiety,5,psychologist_report,training,3
+168,2025-02-28,Shelia Wallace,Futbol Total,I love the game but feel lost lately.,euphoria,2,tweet,media,3
+169,2024-10-27,Noah Rhodes,Atletico Laguna,Media keeps targeting me even after good games.,anxiety,5,tweet,media,1
+170,2025-01-04,Timothy Duncan,Tigre Azul,Media keeps targeting me even after good games.,motivation,3,psychologist_report,injury,3
+171,2025-05-23,Gabrielle Davis,New Age United,Drank last night. Regret it already.,motivation,2,post_training_note,training,3
+172,2025-02-12,Tricia Valencia,Real Cordoba,Parents expect too much. I feel pressure daily.,resilience,5,interview,training,5
+173,2024-10-24,Susan Serrano,Academia FC,I hide my back pain to avoid being benched.,motivation,5,tweet,recovery,4
+174,2024-06-30,Brian Ramirez,Tigre Azul,Social media attacks make me want to quit.,insecurity,4,internal_chat,recovery,5
+175,2024-11-08,Michael Warner,Juventus U21,Worried about re-injury. It is always on my mind.,resilience,5,psychologist_report,training,3
+176,2024-09-22,Jessica Callahan,Atletico Laguna,Coach complimented me but I still doubt myself.,resilience,4,interview,family,1
+177,2024-08-19,Christopher Parker,Academia FC,Coach complimented me but I still doubt myself.,insecurity,1,internal_chat,contract,1
+178,2024-07-24,Courtney Mills,Real Cordoba,I hide my back pain to avoid being benched.,insecurity,3,post_training_note,travel,3
+179,2025-05-02,Melissa Martinez,Juventus U21,Thinking too much before matches. Anxiety is high.,insecurity,3,tweet,injury,2
+180,2025-04-23,Steve Sanchez,Real Cordoba,Worried about re-injury. It is always on my mind.,frustration,1,internal_chat,travel,5
+181,2024-11-30,Eric Carney,Defensa Joven,Media keeps targeting me even after good games.,motivation,5,interview,injury,3
+182,2024-07-12,Connor West,Boca Norte,Lost focus due to stress at home.,insecurity,1,tweet,family,1
+183,2025-02-19,Alexander Collins,Juventus U21,I love the game but feel lost lately.,euphoria,2,post_training_note,contract,1
+184,2024-08-28,Michael Lewis,Defensa Joven,Nights are sleepless before matchday.,resilience,1,tweet,contract,5
+185,2025-02-11,Bailey Duran DDS,Academia FC,Coach complimented me but I still doubt myself.,motivation,5,tweet,matchday,4
+186,2025-02-10,Denise Jacobs,Atletico Laguna,"Tried my best, but still benched again.",resilience,3,internal_chat,media,3
+187,2025-01-24,Lauren Daniels,Estudiantes del Sur,I am grateful but emotionally distant today.,frustration,2,internal_chat,training,3
+188,2024-06-15,Veronica Simpson,Futbol Total,I am grateful but emotionally distant today.,insecurity,4,tweet,media,4
+189,2024-06-26,Jessica Gross,Atletico Laguna,Thinking too much before matches. Anxiety is high.,frustration,1,psychologist_report,media,5
+190,2025-04-08,Judy Baker,Juventus U21,Drank last night. Regret it already.,confidence,4,post_training_note,recovery,5
+191,2024-10-14,Melissa Martinez,Atletico Laguna,Barely slept because of family drama. Cannot focus.,frustration,3,post_training_note,training,1
+192,2024-09-09,Joyce Solis,Estudiantes del Sur,Social media attacks make me want to quit.,fatigue,1,psychologist_report,travel,4
+193,2024-07-25,Zachary Hicks,Tigre Azul,Barely slept because of family drama. Cannot focus.,fatigue,2,psychologist_report,family,5
+194,2025-04-08,Kathy Rivas,Defensa Joven,Pretending to be okay in front of everyone is exhausting.,motivation,4,post_training_note,media,2
+195,2025-01-12,Tracy House,Boca Norte,Nights are sleepless before matchday.,euphoria,5,interview,injury,3
+196,2024-08-25,Sherri Baker,Boca Norte,She broke up with me last night. No energy for training.,insecurity,1,post_training_note,training,1
+197,2024-07-03,Paul Castaneda,Estudiantes del Sur,"Team is winning, but I feel alone.",insecurity,4,tweet,training,4
+198,2025-04-25,Cathy Robinson,Tigre Azul,Thinking too much before matches. Anxiety is high.,anxiety,5,post_training_note,injury,1
+199,2025-03-31,Philip Cannon,Boca Norte,Pretending to be okay in front of everyone is exhausting.,euphoria,4,interview,travel,5
+200,2025-01-08,Cynthia Rowe,Juventus U21,I am grateful but emotionally distant today.,fatigue,3,psychologist_report,injury,5
+201,2024-08-26,Shirley Suarez,Juventus U21,Tired of training. It feels like a loop.,frustration,5,interview,contract,2
+202,2025-01-20,Lawrence Adkins,Defensa Joven,Media keeps targeting me even after good games.,euphoria,1,psychologist_report,family,3
+203,2024-08-29,Cameron Parker,New Age United,Coach complimented me but I still doubt myself.,anxiety,1,psychologist_report,recovery,4
+204,2025-04-18,David Davis,Estudiantes del Sur,I love the game but feel lost lately.,confidence,5,interview,injury,1
+205,2025-05-10,Jennifer Adkins,New Age United,Parents expect too much. I feel pressure daily.,frustration,4,post_training_note,family,3
+206,2024-09-05,Cheyenne Horton,Estudiantes del Sur,She broke up with me last night. No energy for training.,resilience,5,internal_chat,family,5
+207,2024-10-12,Andrew Reynolds,Real Cordoba,She broke up with me last night. No energy for training.,motivation,3,tweet,training,3
+208,2025-04-03,John Pierce,Estudiantes del Sur,Coach complimented me but I still doubt myself.,insecurity,4,interview,matchday,1
+209,2024-08-03,Jessica Stephens,Estudiantes del Sur,Barely slept because of family drama. Cannot focus.,resilience,5,post_training_note,media,3
+210,2025-04-09,James Ferrell,Real Cordoba,Pretending to be okay in front of everyone is exhausting.,resilience,1,interview,media,5
+211,2025-05-22,Margaret Hawkins DDS,Futbol Total,Parents expect too much. I feel pressure daily.,confidence,5,interview,media,3
+212,2025-01-24,Jonathan Peterson,Defensa Joven,"Tried my best, but still benched again.",insecurity,4,tweet,matchday,4
+213,2024-06-08,Darlene Miller,Juventus U21,Thinking too much before matches. Anxiety is high.,frustration,5,post_training_note,family,3
+214,2024-09-22,Megan Orr,Estudiantes del Sur,Media keeps targeting me even after good games.,resilience,1,interview,media,4
+215,2025-05-06,Robert Oconnell,Atletico Laguna,I am grateful but emotionally distant today.,anxiety,5,internal_chat,family,3
+216,2024-08-02,Joseph Knight,Boca Norte,Thinking too much before matches. Anxiety is high.,anxiety,5,internal_chat,travel,5
+217,2024-07-27,Katie Suarez,Defensa Joven,Coach keeps yelling but never asks what is going on with me.,resilience,3,psychologist_report,contract,2
+218,2025-01-02,Nicole Herring,Real Cordoba,Barely slept because of family drama. Cannot focus.,euphoria,2,psychologist_report,training,2
+219,2024-09-12,Pamela Boyd,Juventus U21,Tired of training. It feels like a loop.,motivation,3,interview,media,4
+220,2025-04-13,Debra Christian,New Age United,What if this injury never heals properly?,anxiety,5,psychologist_report,recovery,4
+221,2024-08-13,Ethan Adams,Boca Norte,Lost focus due to stress at home.,euphoria,4,interview,family,2
+222,2024-07-19,Lori Guerrero,Futbol Total,Nights are sleepless before matchday.,euphoria,3,post_training_note,contract,5
+223,2025-02-18,Madison Poole,Estudiantes del Sur,Parents expect too much. I feel pressure daily.,confidence,3,post_training_note,travel,5
+224,2025-05-09,Michael Evans,Futbol Total,Coach complimented me but I still doubt myself.,anxiety,3,internal_chat,recovery,3
+225,2024-06-17,Debra Morton,Academia FC,Pretending to be okay in front of everyone is exhausting.,frustration,3,internal_chat,media,4
+226,2024-07-28,Angel Perry,Real Cordoba,Tired of training. It feels like a loop.,anxiety,4,internal_chat,contract,5
+227,2024-06-12,Jessica Stephens,Defensa Joven,Coach keeps yelling but never asks what is going on with me.,insecurity,1,post_training_note,injury,1
+228,2024-10-24,Larry Dixon,Boca Norte,Worried about re-injury. It is always on my mind.,resilience,2,internal_chat,injury,3
+229,2025-04-09,Jessica Holmes,Defensa Joven,Media keeps targeting me even after good games.,anxiety,1,tweet,recovery,3
+230,2025-04-09,Whitney Peters,Real Cordoba,Parents expect too much. I feel pressure daily.,motivation,1,internal_chat,family,2
+231,2024-09-07,Richard Rodriguez,New Age United,Nights are sleepless before matchday.,insecurity,1,tweet,contract,4
+232,2025-01-21,Brenda Hall,Juventus U21,She broke up with me last night. No energy for training.,euphoria,4,interview,recovery,5
+233,2024-10-10,Tricia Valencia,Juventus U21,Social media attacks make me want to quit.,motivation,5,interview,contract,5
+234,2024-06-13,Lauren Daniels,Atletico Laguna,"Team is winning, but I feel alone.",motivation,5,tweet,contract,3
+235,2024-08-13,Jeremy Reed,Boca Norte,What if this injury never heals properly?,frustration,5,tweet,training,4
+236,2024-09-18,Patrick Thornton,Academia FC,Tired of training. It feels like a loop.,motivation,4,post_training_note,matchday,4
+237,2024-06-27,Adam Vaughan,Defensa Joven,Drank last night. Regret it already.,motivation,3,internal_chat,injury,4
+238,2024-07-26,Michelle Harmon,Juventus U21,I love the game but feel lost lately.,resilience,2,internal_chat,injury,2
+239,2025-03-22,Nathan Malone,Defensa Joven,What if this injury never heals properly?,confidence,4,psychologist_report,media,5
+240,2024-11-17,Tricia Valencia,Real Cordoba,She broke up with me last night. No energy for training.,fatigue,2,internal_chat,contract,4
+241,2024-12-28,Patty Perez,Defensa Joven,"Tried my best, but still benched again.",insecurity,5,post_training_note,family,2
+242,2024-07-21,Lisa Jackson,Futbol Total,"Tried my best, but still benched again.",resilience,1,tweet,family,1
+243,2025-03-23,Donald Wright,Defensa Joven,"Team is winning, but I feel alone.",insecurity,4,post_training_note,injury,3
+244,2024-07-01,Anna Henderson,Real Cordoba,Social media attacks make me want to quit.,resilience,5,tweet,training,5
+245,2024-12-08,Mark Brown,Juventus U21,"Team is winning, but I feel alone.",anxiety,5,tweet,injury,5
+246,2024-11-28,Crystal Robinson,Juventus U21,Thinking too much before matches. Anxiety is high.,fatigue,3,post_training_note,travel,3
+247,2025-04-05,Daniel Baker,Real Cordoba,Lost focus due to stress at home.,confidence,1,tweet,travel,1
+248,2024-10-25,Cheyenne Horton,Tigre Azul,Worried about re-injury. It is always on my mind.,insecurity,3,interview,media,2
+249,2024-12-23,Brian Ramirez,New Age United,Coach complimented me but I still doubt myself.,confidence,1,psychologist_report,training,3
+250,2025-01-23,Larry Dixon,Defensa Joven,Lost focus due to stress at home.,insecurity,5,internal_chat,media,2
+251,2024-07-19,Jessica Stephens,Defensa Joven,Lost focus due to stress at home.,confidence,1,interview,media,2
+252,2024-11-29,Veronica Simpson,Defensa Joven,I am grateful but emotionally distant today.,resilience,3,psychologist_report,training,2
+253,2024-12-19,Michele Williams,New Age United,Social media attacks make me want to quit.,insecurity,5,internal_chat,family,1
+254,2024-09-01,Daniel Kennedy,Real Cordoba,Barely slept because of family drama. Cannot focus.,fatigue,4,psychologist_report,training,1
+255,2025-01-31,William Baker,Juventus U21,Parents expect too much. I feel pressure daily.,anxiety,4,internal_chat,injury,2
+256,2024-06-23,Michael Wang,Juventus U21,Nights are sleepless before matchday.,fatigue,3,psychologist_report,media,4
+257,2025-03-16,Dr. Hannah Patterson,Academia FC,I hide my back pain to avoid being benched.,frustration,2,psychologist_report,contract,5
+258,2025-04-07,Tanya Kim,Tigre Azul,Lost focus due to stress at home.,resilience,4,interview,media,1
+259,2025-05-25,Angelica Tucker,Juventus U21,"Tried my best, but still benched again.",insecurity,4,interview,travel,4
+260,2025-05-09,Brian Lee,Estudiantes del Sur,Worried about re-injury. It is always on my mind.,anxiety,3,internal_chat,recovery,4
+261,2025-02-17,Sara Johnston,Academia FC,Lost focus due to stress at home.,anxiety,5,interview,media,5
+262,2024-12-26,Tracy House,Boca Norte,Tired of training. It feels like a loop.,motivation,1,interview,media,2
+263,2024-10-02,Michelle Brown,New Age United,What if this injury never heals properly?,resilience,2,tweet,family,4
+264,2024-12-01,Paula Moreno,Atletico Laguna,Barely slept because of family drama. Cannot focus.,fatigue,2,tweet,training,4
+265,2025-02-11,Kathleen Moran,New Age United,I love the game but feel lost lately.,anxiety,2,interview,injury,4
+266,2024-06-19,Lisa Allen,Tigre Azul,Coach keeps yelling but never asks what is going on with me.,frustration,1,interview,family,2
+267,2024-06-30,Sierra Johnson,Estudiantes del Sur,"Team is winning, but I feel alone.",motivation,4,interview,family,2
+268,2024-12-10,Brenda Hall,Real Cordoba,I hide my back pain to avoid being benched.,insecurity,3,post_training_note,training,1
+269,2025-05-02,Rebecca Henderson,New Age United,Parents expect too much. I feel pressure daily.,insecurity,4,post_training_note,contract,1
+270,2024-11-09,Nicole Herring,Estudiantes del Sur,Media keeps targeting me even after good games.,resilience,3,tweet,travel,4
+271,2024-11-19,Tracy House,Defensa Joven,Tired of training. It feels like a loop.,frustration,3,psychologist_report,recovery,2
+272,2025-02-28,Connor West,Atletico Laguna,Parents expect too much. I feel pressure daily.,euphoria,2,internal_chat,matchday,2
+273,2024-07-18,Kathy Rivas,Boca Norte,Coach complimented me but I still doubt myself.,insecurity,2,psychologist_report,injury,5
+274,2024-12-14,John Young,Defensa Joven,Barely slept because of family drama. Cannot focus.,anxiety,4,interview,recovery,4
+275,2025-03-10,Kristen Davis,Atletico Laguna,Social media attacks make me want to quit.,motivation,1,post_training_note,recovery,1
+276,2025-05-26,Michelle Harmon,Futbol Total,I love the game but feel lost lately.,resilience,1,internal_chat,family,5
+277,2024-11-26,Barbara Dudley,Estudiantes del Sur,Social media attacks make me want to quit.,fatigue,5,internal_chat,training,2
+278,2024-07-05,Courtney Mills,New Age United,Drank last night. Regret it already.,resilience,4,tweet,matchday,1
+279,2025-05-22,David Martinez,Tigre Azul,I love the game but feel lost lately.,euphoria,3,interview,family,4
+280,2024-07-08,Cassandra Gaines,Boca Norte,Tired of training. It feels like a loop.,confidence,5,tweet,training,2
+281,2024-10-10,Amber Kidd,Juventus U21,I am grateful but emotionally distant today.,resilience,3,interview,injury,4
+282,2025-01-29,Lauren Daniels,Futbol Total,Coach complimented me but I still doubt myself.,insecurity,5,internal_chat,matchday,5
+283,2024-08-03,Carla Gray,New Age United,Thinking too much before matches. Anxiety is high.,confidence,5,post_training_note,media,5
+284,2024-07-02,Diane Evans,New Age United,Thinking too much before matches. Anxiety is high.,resilience,2,post_training_note,family,5
+285,2024-07-26,Joshua Cooke,Academia FC,Tired of training. It feels like a loop.,confidence,5,tweet,recovery,3
+286,2024-09-21,Gabrielle Davis,Defensa Joven,Thinking too much before matches. Anxiety is high.,frustration,4,interview,family,4
+287,2025-02-04,Michele Williams,Estudiantes del Sur,Social media attacks make me want to quit.,fatigue,5,interview,contract,5
+288,2025-02-07,Justin Baker,Estudiantes del Sur,Social media attacks make me want to quit.,anxiety,5,interview,travel,5
+289,2025-01-20,Sarah Moore,Futbol Total,She broke up with me last night. No energy for training.,frustration,2,internal_chat,recovery,4
+290,2025-01-05,Paul Castaneda,Boca Norte,Media keeps targeting me even after good games.,insecurity,2,post_training_note,recovery,5
+291,2025-03-10,James Ferrell,New Age United,Tired of training. It feels like a loop.,euphoria,5,tweet,recovery,4
+292,2024-10-11,Patrick Thornton,Boca Norte,Thinking too much before matches. Anxiety is high.,anxiety,4,interview,injury,2
+293,2024-11-01,Nathan Malone,Defensa Joven,Drank last night. Regret it already.,confidence,2,psychologist_report,family,4
+294,2025-01-25,Elaine Brooks,Atletico Laguna,I hide my back pain to avoid being benched.,fatigue,3,psychologist_report,recovery,4
+295,2024-12-30,Lindsey Walker,Real Cordoba,Lost focus due to stress at home.,fatigue,3,internal_chat,travel,3
+296,2024-09-29,Elizabeth Perkins,Defensa Joven,Media keeps targeting me even after good games.,fatigue,1,tweet,training,2
+297,2024-11-30,Michael Wang,Real Cordoba,Drank last night. Regret it already.,confidence,2,psychologist_report,family,3
+298,2024-12-20,Carolyn Miller,Atletico Laguna,Media keeps targeting me even after good games.,frustration,5,interview,contract,5
+299,2025-01-28,Helen Jones,Tigre Azul,Tired of training. It feels like a loop.,euphoria,2,internal_chat,training,4
+300,2024-11-21,Denise Mccann,Defensa Joven,Social media attacks make me want to quit.,frustration,2,internal_chat,media,2
+301,2024-07-15,Dr. William Warren,Real Cordoba,Social media attacks make me want to quit.,euphoria,3,tweet,family,3
+302,2025-04-11,Rebecca Henderson,Juventus U21,I love the game but feel lost lately.,euphoria,5,internal_chat,media,4
+303,2025-03-06,Katherine Salas,New Age United,She broke up with me last night. No energy for training.,insecurity,4,psychologist_report,family,1
+304,2024-07-21,Carla Gray,Tigre Azul,"Tried my best, but still benched again.",frustration,3,tweet,recovery,3
+305,2025-05-04,Shannon James,Academia FC,Social media attacks make me want to quit.,anxiety,5,post_training_note,family,2
+306,2025-02-16,Jessica Smith,Juventus U21,Thinking too much before matches. Anxiety is high.,anxiety,4,tweet,media,3
+307,2025-02-14,Gina Moore,Defensa Joven,"Tried my best, but still benched again.",euphoria,2,interview,travel,3
+308,2025-05-13,Justin Torres,Academia FC,Thinking too much before matches. Anxiety is high.,frustration,4,internal_chat,media,3
+309,2025-04-01,Whitney Peters,Real Cordoba,Thinking too much before matches. Anxiety is high.,euphoria,1,tweet,travel,5
+310,2025-01-07,Larry Dixon,Real Cordoba,Drank last night. Regret it already.,resilience,3,interview,matchday,1
+311,2025-03-13,Daniel Kennedy,Defensa Joven,I hide my back pain to avoid being benched.,motivation,1,post_training_note,family,2
+312,2025-05-09,Mike Allen,Boca Norte,Tired of training. It feels like a loop.,fatigue,1,tweet,injury,2
+313,2024-08-29,Crystal Johnson,Futbol Total,Media keeps targeting me even after good games.,confidence,2,post_training_note,injury,2
+314,2024-11-21,Melissa Martinez,Academia FC,Social media attacks make me want to quit.,euphoria,2,interview,training,4
+315,2024-11-29,Patrick Thornton,Real Cordoba,Tired of training. It feels like a loop.,resilience,1,interview,training,2
+316,2025-05-17,James Ferrell,Academia FC,Tired of training. It feels like a loop.,euphoria,5,interview,media,2
+317,2024-09-03,Zachary Ferrell,Defensa Joven,Tired of training. It feels like a loop.,confidence,1,psychologist_report,recovery,1
+318,2024-11-14,John Pierce,Academia FC,Parents expect too much. I feel pressure daily.,motivation,4,psychologist_report,travel,4
+319,2024-10-16,Laura Roberts,Estudiantes del Sur,She broke up with me last night. No energy for training.,confidence,3,internal_chat,travel,4
+320,2025-04-24,Elizabeth Kelley,Tigre Azul,Barely slept because of family drama. Cannot focus.,frustration,1,post_training_note,injury,3
+321,2024-11-30,Tricia Valencia,Academia FC,She broke up with me last night. No energy for training.,frustration,4,internal_chat,family,5
+322,2024-11-08,Brian Lee,New Age United,Media keeps targeting me even after good games.,insecurity,3,post_training_note,recovery,4
+323,2024-11-15,Angelica Keith,Boca Norte,Worried about re-injury. It is always on my mind.,anxiety,3,internal_chat,media,4
+324,2025-03-17,Matthew Moore,Boca Norte,Tired of training. It feels like a loop.,anxiety,2,internal_chat,matchday,1
+325,2024-07-13,Denise Jones,Real Cordoba,Nights are sleepless before matchday.,insecurity,5,post_training_note,contract,2
+326,2024-10-06,Michelle Evans,Real Cordoba,Lost focus due to stress at home.,anxiety,3,psychologist_report,training,4
+327,2024-11-19,Holly Wood,Boca Norte,Coach complimented me but I still doubt myself.,motivation,2,psychologist_report,training,4
+328,2024-10-06,Danny Morgan,Estudiantes del Sur,She broke up with me last night. No energy for training.,confidence,5,internal_chat,contract,5
+329,2025-02-20,Ethan Adams,Boca Norte,Parents expect too much. I feel pressure daily.,euphoria,5,psychologist_report,matchday,1
+330,2024-09-13,Whitney Peters,Academia FC,"Tried my best, but still benched again.",euphoria,5,tweet,injury,5
+331,2024-10-30,Kenneth Scott,Atletico Laguna,Media keeps targeting me even after good games.,euphoria,4,tweet,family,4
+332,2024-08-05,James Ferrell,Academia FC,I love the game but feel lost lately.,anxiety,4,interview,recovery,4
+333,2025-02-28,Matthew Foster,Defensa Joven,I am grateful but emotionally distant today.,resilience,4,post_training_note,media,1
+334,2025-05-31,Devon Flores,Boca Norte,What if this injury never heals properly?,confidence,2,psychologist_report,family,3
+335,2024-12-08,Lauren Daniels,Real Cordoba,She broke up with me last night. No energy for training.,insecurity,4,interview,media,3
+336,2024-07-03,Adam Vaughan,Futbol Total,Drank last night. Regret it already.,euphoria,3,internal_chat,recovery,4
+337,2024-07-12,Jessica Gross,Juventus U21,Nights are sleepless before matchday.,euphoria,1,tweet,travel,4
+338,2025-04-26,Margaret Hawkins DDS,Juventus U21,Barely slept because of family drama. Cannot focus.,euphoria,4,psychologist_report,injury,5
+339,2024-07-10,Michelle Brown,Tigre Azul,Barely slept because of family drama. Cannot focus.,euphoria,1,post_training_note,contract,5
+340,2024-07-13,Richard Henson,Boca Norte,I hide my back pain to avoid being benched.,resilience,3,post_training_note,recovery,5
+341,2024-11-21,Shelly Alexander,Defensa Joven,"Tried my best, but still benched again.",fatigue,3,interview,recovery,2
+342,2024-07-14,Sara Johnston,Juventus U21,Social media attacks make me want to quit.,resilience,2,tweet,injury,4
+343,2025-03-23,Denise Mccann,Tigre Azul,I love the game but feel lost lately.,euphoria,2,internal_chat,family,2
+344,2025-03-20,Shelia Wallace,Estudiantes del Sur,I love the game but feel lost lately.,insecurity,3,psychologist_report,contract,3
+345,2024-10-29,Joel Williams,Futbol Total,I am grateful but emotionally distant today.,euphoria,4,interview,injury,4
+346,2025-04-18,Dustin Jordan,Real Cordoba,Social media attacks make me want to quit.,confidence,2,tweet,media,4
+347,2024-07-27,Whitney Peters,Academia FC,Social media attacks make me want to quit.,anxiety,5,internal_chat,matchday,1
+348,2025-01-09,Elizabeth Fowler,Tigre Azul,Coach keeps yelling but never asks what is going on with me.,insecurity,2,psychologist_report,training,4
+349,2024-06-30,Megan Young,Tigre Azul,Barely slept because of family drama. Cannot focus.,confidence,3,internal_chat,recovery,3
+350,2025-01-20,Kimberly Gutierrez,Tigre Azul,Coach keeps yelling but never asks what is going on with me.,insecurity,1,internal_chat,family,4
+351,2025-01-11,Joyce Bowen,Atletico Laguna,Coach keeps yelling but never asks what is going on with me.,insecurity,2,internal_chat,training,2
+352,2025-01-11,Cynthia Rowe,New Age United,I hide my back pain to avoid being benched.,euphoria,5,interview,family,4
+353,2024-10-13,Tina Sanders,Atletico Laguna,I am grateful but emotionally distant today.,frustration,3,post_training_note,recovery,2
+354,2025-02-22,Briana Murray,Futbol Total,I hide my back pain to avoid being benched.,fatigue,1,internal_chat,training,5
+355,2024-07-24,Cathy Robinson,Boca Norte,I am grateful but emotionally distant today.,confidence,1,internal_chat,media,5
+356,2024-11-13,Sherry Decker,Real Cordoba,"Team is winning, but I feel alone.",resilience,5,internal_chat,matchday,1
+357,2024-10-22,Ashley Waller,Futbol Total,I love the game but feel lost lately.,confidence,3,internal_chat,training,4
+358,2025-05-12,Christopher Rubio,Academia FC,I love the game but feel lost lately.,motivation,2,tweet,matchday,5
+359,2025-02-20,Sharon Cherry,Estudiantes del Sur,Media keeps targeting me even after good games.,insecurity,1,tweet,media,5
+360,2025-06-07,Lisa Allen,Futbol Total,I love the game but feel lost lately.,insecurity,5,tweet,travel,1
+361,2025-03-25,Whitney Peters,Juventus U21,Tired of training. It feels like a loop.,resilience,1,internal_chat,travel,1
+362,2024-11-18,Victor Baker,Juventus U21,Thinking too much before matches. Anxiety is high.,insecurity,3,internal_chat,family,4
+363,2025-05-10,Jessica Stephens,Real Cordoba,I hide my back pain to avoid being benched.,resilience,5,post_training_note,travel,2
+364,2025-05-28,Anna Henderson,Estudiantes del Sur,I am grateful but emotionally distant today.,frustration,5,tweet,contract,4
+365,2025-03-14,Cassandra Gaines,Juventus U21,Drank last night. Regret it already.,anxiety,4,psychologist_report,travel,2
+366,2024-06-26,Lindsey Walker,Defensa Joven,Pretending to be okay in front of everyone is exhausting.,frustration,1,tweet,recovery,1
+367,2024-09-26,Lindsay Martinez,Atletico Laguna,Pretending to be okay in front of everyone is exhausting.,anxiety,1,psychologist_report,travel,3
+368,2025-01-26,Lori Guerrero,Academia FC,Nights are sleepless before matchday.,insecurity,1,internal_chat,training,4
+369,2024-10-06,Tina Sanders,Academia FC,Worried about re-injury. It is always on my mind.,resilience,4,internal_chat,family,3
+370,2024-10-21,Denise Mccann,Boca Norte,Worried about re-injury. It is always on my mind.,euphoria,5,interview,media,2
+371,2024-07-17,John Bishop,New Age United,Media keeps targeting me even after good games.,fatigue,3,tweet,recovery,4
+372,2025-01-17,Amy Silva,Juventus U21,What if this injury never heals properly?,insecurity,3,post_training_note,family,3
+373,2024-12-21,Frank Cordova,Juventus U21,Lost focus due to stress at home.,fatigue,2,post_training_note,contract,3
+374,2024-08-28,Michael Lyons,Juventus U21,Media keeps targeting me even after good games.,fatigue,1,post_training_note,injury,4
+375,2024-08-06,John Bishop,Defensa Joven,Parents expect too much. I feel pressure daily.,resilience,4,interview,media,3
+376,2025-02-17,Devon Flores,Defensa Joven,Coach complimented me but I still doubt myself.,euphoria,4,tweet,media,4
+377,2024-12-11,Joseph Coleman,Defensa Joven,"Tried my best, but still benched again.",confidence,5,psychologist_report,injury,3
+378,2024-09-02,Debra Christian,Atletico Laguna,I am grateful but emotionally distant today.,resilience,1,interview,contract,1
+379,2025-05-02,Nathan Malone,New Age United,Nights are sleepless before matchday.,motivation,4,psychologist_report,recovery,4
+380,2024-07-19,Stephanie Manning,Juventus U21,"Team is winning, but I feel alone.",confidence,2,tweet,contract,1
+381,2024-10-20,Megan Orr,New Age United,"Team is winning, but I feel alone.",insecurity,1,post_training_note,recovery,5
+382,2025-05-01,Keith Jennings,Boca Norte,Nights are sleepless before matchday.,insecurity,5,internal_chat,injury,1
+383,2025-01-09,Joyce Bowen,Estudiantes del Sur,Worried about re-injury. It is always on my mind.,frustration,2,tweet,media,3
+384,2024-10-27,Ethan Adams,Estudiantes del Sur,I am grateful but emotionally distant today.,resilience,4,internal_chat,matchday,2
+385,2024-07-21,Jessica Holmes,Atletico Laguna,I hide my back pain to avoid being benched.,euphoria,4,tweet,travel,1
+386,2025-03-30,David Davis,Estudiantes del Sur,Tired of training. It feels like a loop.,anxiety,3,internal_chat,recovery,1
+387,2024-09-23,Mark Perez,Atletico Laguna,"Team is winning, but I feel alone.",frustration,1,psychologist_report,injury,1
+388,2025-01-15,Jamie Smith,Defensa Joven,Parents expect too much. I feel pressure daily.,euphoria,5,post_training_note,injury,2
+389,2024-09-02,Brandon Bailey MD,Juventus U21,Parents expect too much. I feel pressure daily.,confidence,3,internal_chat,family,2
+390,2025-04-16,Ethan Adams,Juventus U21,Coach keeps yelling but never asks what is going on with me.,resilience,1,psychologist_report,contract,1
+391,2024-11-20,Yvonne Burns,New Age United,Nights are sleepless before matchday.,anxiety,3,interview,travel,5
+392,2025-05-01,Andrew Reynolds,Futbol Total,I am grateful but emotionally distant today.,anxiety,2,post_training_note,travel,2
+393,2025-01-10,Dylan Miller,Estudiantes del Sur,Barely slept because of family drama. Cannot focus.,confidence,5,post_training_note,travel,2
+394,2025-04-01,Angie Henderson,Futbol Total,Barely slept because of family drama. Cannot focus.,fatigue,1,interview,training,2
+395,2025-04-20,Joyce Bowen,New Age United,Lost focus due to stress at home.,resilience,2,post_training_note,training,4
+396,2025-02-03,Rebecca Jackson,Real Cordoba,Tired of training. It feels like a loop.,resilience,5,post_training_note,travel,1
+397,2025-01-31,Brent Jordan,Defensa Joven,Lost focus due to stress at home.,confidence,5,psychologist_report,family,5
+398,2025-02-24,Anthony Humphrey,New Age United,Thinking too much before matches. Anxiety is high.,frustration,2,tweet,training,2
+399,2025-02-11,Christina Walters,Defensa Joven,Media keeps targeting me even after good games.,insecurity,4,interview,media,4
+400,2025-01-09,Ryan Gonzalez,Boca Norte,"Team is winning, but I feel alone.",anxiety,4,interview,media,3
+401,2024-06-17,Stephanie Williams,New Age United,Social media attacks make me want to quit.,fatigue,2,psychologist_report,injury,3
+402,2025-01-29,Jessica Stephens,Estudiantes del Sur,She broke up with me last night. No energy for training.,resilience,1,post_training_note,media,2
+403,2025-06-02,Stephen Mckee,Boca Norte,Nights are sleepless before matchday.,confidence,4,post_training_note,travel,5
+404,2025-02-17,Michael Warner,Real Cordoba,What if this injury never heals properly?,frustration,5,internal_chat,contract,5
+405,2025-04-25,Stephanie Manning,Tigre Azul,Drank last night. Regret it already.,euphoria,5,tweet,media,1
+406,2025-03-03,Michael Lyons,Estudiantes del Sur,Social media attacks make me want to quit.,frustration,5,internal_chat,family,2
+407,2024-09-18,Shannon James,Defensa Joven,Nights are sleepless before matchday.,motivation,4,interview,contract,3
+408,2024-06-18,Mark Brown,Juventus U21,I hide my back pain to avoid being benched.,fatigue,1,post_training_note,family,1
+409,2024-08-16,Lawrence Adkins,Juventus U21,Parents expect too much. I feel pressure daily.,frustration,2,psychologist_report,injury,5
+410,2024-09-21,Bailey Duran DDS,New Age United,Coach complimented me but I still doubt myself.,anxiety,2,psychologist_report,matchday,1
+411,2025-03-06,Stephanie Byrd,Defensa Joven,Nights are sleepless before matchday.,fatigue,5,interview,media,3
+412,2025-03-30,John Anderson,Atletico Laguna,"Tried my best, but still benched again.",fatigue,5,internal_chat,media,5
+413,2024-10-04,Christopher Smith,Tigre Azul,Drank last night. Regret it already.,anxiety,2,psychologist_report,media,4
+414,2025-05-30,Michael Powell,Futbol Total,I am grateful but emotionally distant today.,confidence,2,interview,family,4
+415,2024-10-16,Melissa Martinez,Boca Norte,Parents expect too much. I feel pressure daily.,frustration,1,post_training_note,family,2
+416,2024-10-21,Madison Poole,Real Cordoba,Social media attacks make me want to quit.,resilience,5,internal_chat,training,1
+417,2024-06-09,Michael Lyons,Defensa Joven,Worried about re-injury. It is always on my mind.,insecurity,2,post_training_note,contract,5
+418,2024-08-16,Barbara Dudley,Atletico Laguna,Thinking too much before matches. Anxiety is high.,fatigue,3,interview,media,2
+419,2025-05-10,Briana Murray,Real Cordoba,Thinking too much before matches. Anxiety is high.,motivation,1,internal_chat,recovery,1
+420,2024-08-01,Gabrielle Davis,Juventus U21,What if this injury never heals properly?,confidence,4,internal_chat,travel,3
+421,2025-01-12,Christine Wright,New Age United,"Tried my best, but still benched again.",anxiety,3,internal_chat,injury,5
+422,2025-02-17,Cameron Fisher,Juventus U21,Lost focus due to stress at home.,anxiety,1,post_training_note,family,1
+423,2024-11-09,Jeffrey Chandler,Boca Norte,Worried about re-injury. It is always on my mind.,frustration,1,psychologist_report,recovery,5
+424,2024-07-04,Brittany Farmer,New Age United,I love the game but feel lost lately.,euphoria,5,post_training_note,matchday,1
+425,2024-08-01,Cristian Santos,Defensa Joven,Pretending to be okay in front of everyone is exhausting.,insecurity,2,post_training_note,training,3
+426,2025-03-21,Ashley Waller,Boca Norte,Worried about re-injury. It is always on my mind.,frustration,1,tweet,injury,5
+427,2025-02-07,Devon Flores,New Age United,I am grateful but emotionally distant today.,anxiety,2,internal_chat,matchday,4
+428,2024-06-18,Zachary Ferrell,Real Cordoba,Lost focus due to stress at home.,euphoria,2,post_training_note,recovery,3
+429,2024-07-12,Shannon Walker,Juventus U21,Pretending to be okay in front of everyone is exhausting.,anxiety,1,interview,travel,1
+430,2025-03-23,Robert Oconnell,Boca Norte,Thinking too much before matches. Anxiety is high.,anxiety,2,tweet,training,5
+431,2024-12-30,Jason Powell,Academia FC,Coach complimented me but I still doubt myself.,fatigue,1,tweet,contract,3
+432,2024-08-29,Joshua Reed,Estudiantes del Sur,Tired of training. It feels like a loop.,euphoria,4,tweet,matchday,1
+433,2024-10-31,April Frost,Real Cordoba,I am grateful but emotionally distant today.,frustration,2,post_training_note,training,4
+434,2024-11-17,Jasmin Alvarado,Tigre Azul,Lost focus due to stress at home.,resilience,2,post_training_note,travel,4
+435,2024-11-30,Samantha Garcia,Academia FC,What if this injury never heals properly?,confidence,1,internal_chat,training,1
+436,2024-10-17,Gina Moore,Atletico Laguna,Barely slept because of family drama. Cannot focus.,motivation,1,post_training_note,family,4
+437,2024-08-07,Susan Murray MD,Boca Norte,"Team is winning, but I feel alone.",insecurity,1,interview,media,3
+438,2024-10-28,Patricia Rodriguez,Juventus U21,"Tried my best, but still benched again.",frustration,5,psychologist_report,media,4
+439,2024-10-06,Joyce Bowen,Defensa Joven,I am grateful but emotionally distant today.,frustration,3,post_training_note,contract,2
+440,2025-03-14,Anthony Rodriguez,Futbol Total,Worried about re-injury. It is always on my mind.,insecurity,1,post_training_note,matchday,4
+441,2024-10-10,Melissa Gates,New Age United,Pretending to be okay in front of everyone is exhausting.,motivation,2,internal_chat,media,2
+442,2025-04-04,Cynthia Moore,Defensa Joven,Tired of training. It feels like a loop.,fatigue,2,tweet,media,5
+443,2025-06-07,Courtney Gonzalez,Juventus U21,Coach keeps yelling but never asks what is going on with me.,resilience,4,tweet,training,3
+444,2025-01-13,Rebecca Jackson,Estudiantes del Sur,Worried about re-injury. It is always on my mind.,confidence,4,interview,injury,5
+445,2025-01-24,Zachary Hicks,Real Cordoba,I love the game but feel lost lately.,anxiety,3,psychologist_report,family,5
+446,2024-07-09,Crystal Robinson,Estudiantes del Sur,Pretending to be okay in front of everyone is exhausting.,euphoria,5,internal_chat,matchday,4
+447,2025-05-16,Abigail Shaffer,Futbol Total,She broke up with me last night. No energy for training.,confidence,3,post_training_note,media,4
+448,2024-06-27,Brian Rodriguez,Tigre Azul,Nights are sleepless before matchday.,insecurity,2,tweet,contract,4
+449,2024-08-06,Katherine Salas,Defensa Joven,Drank last night. Regret it already.,frustration,5,tweet,training,5
+450,2024-08-07,Kathleen Moran,Tigre Azul,What if this injury never heals properly?,euphoria,5,internal_chat,travel,3
+451,2025-03-26,Jeffrey Chavez,Real Cordoba,"Tried my best, but still benched again.",fatigue,3,internal_chat,recovery,3
+452,2025-02-01,Cristian Santos,Defensa Joven,Barely slept because of family drama. Cannot focus.,fatigue,5,tweet,contract,2
+453,2024-06-26,David Davis,Defensa Joven,I love the game but feel lost lately.,confidence,2,interview,contract,1
+454,2025-02-23,Megan Young,Tigre Azul,"Team is winning, but I feel alone.",motivation,2,interview,injury,3
+455,2024-07-08,Cristian Santos,Defensa Joven,Coach keeps yelling but never asks what is going on with me.,insecurity,3,internal_chat,contract,4
+456,2024-09-20,Veronica Simpson,Futbol Total,"Team is winning, but I feel alone.",confidence,1,psychologist_report,family,2
+457,2024-11-26,Shane Henderson,Tigre Azul,I hide my back pain to avoid being benched.,insecurity,3,post_training_note,training,4
+458,2025-02-19,William Barrett,Juventus U21,Tired of training. It feels like a loop.,anxiety,4,internal_chat,matchday,5
+459,2024-11-18,Elizabeth Oliver DDS,New Age United,I hide my back pain to avoid being benched.,fatigue,3,tweet,travel,5
+460,2024-12-12,Alyssa Day,Defensa Joven,Parents expect too much. I feel pressure daily.,fatigue,2,internal_chat,contract,4
+461,2025-01-28,William Baker,Estudiantes del Sur,Pretending to be okay in front of everyone is exhausting.,anxiety,1,psychologist_report,recovery,3
+462,2024-11-25,Sara Johnston,Defensa Joven,"Team is winning, but I feel alone.",frustration,5,tweet,contract,1
+463,2024-11-14,Susan Serrano,Atletico Laguna,Parents expect too much. I feel pressure daily.,fatigue,1,internal_chat,media,4
+464,2024-09-21,Michelle Brown,Estudiantes del Sur,She broke up with me last night. No energy for training.,euphoria,3,psychologist_report,training,3
+465,2024-08-29,Jason Powell,Defensa Joven,I am grateful but emotionally distant today.,motivation,3,tweet,media,2
+466,2025-03-27,Brian Ramirez,Boca Norte,Parents expect too much. I feel pressure daily.,euphoria,1,post_training_note,training,4
+467,2024-12-22,Whitney Peters,Juventus U21,Coach keeps yelling but never asks what is going on with me.,motivation,2,psychologist_report,contract,2
+468,2024-07-21,David Martinez,Defensa Joven,Worried about re-injury. It is always on my mind.,fatigue,1,internal_chat,training,3
+469,2024-10-19,Cameron Parker,Real Cordoba,Media keeps targeting me even after good games.,frustration,3,internal_chat,matchday,3
+470,2024-11-20,Andrew Reynolds,Tigre Azul,What if this injury never heals properly?,insecurity,4,post_training_note,matchday,3
+471,2024-07-20,Allen Rosales,Boca Norte,What if this injury never heals properly?,resilience,2,psychologist_report,family,3
+472,2024-09-25,Christopher Rubio,Real Cordoba,Media keeps targeting me even after good games.,motivation,5,interview,contract,5
+473,2025-02-25,Pamela Boyd,Real Cordoba,"Team is winning, but I feel alone.",confidence,1,internal_chat,family,3
+474,2025-02-25,Daniel Salinas,New Age United,"Team is winning, but I feel alone.",euphoria,5,psychologist_report,matchday,5
+475,2025-01-23,Allen Rosales,Defensa Joven,Social media attacks make me want to quit.,confidence,3,interview,injury,1
+476,2024-12-12,Adam Vaughan,Atletico Laguna,What if this injury never heals properly?,motivation,3,interview,contract,5
+477,2024-12-28,Brian Ramirez,Atletico Laguna,She broke up with me last night. No energy for training.,confidence,5,tweet,contract,2
+478,2025-02-21,Mike Allen,Juventus U21,I hide my back pain to avoid being benched.,euphoria,3,interview,matchday,1
+479,2024-10-04,Julia Torres,Estudiantes del Sur,I am grateful but emotionally distant today.,resilience,2,psychologist_report,contract,2
+480,2024-06-24,Lindsey Walker,Defensa Joven,I love the game but feel lost lately.,motivation,3,interview,media,4
+481,2024-08-31,Lisa Allen,Futbol Total,Social media attacks make me want to quit.,fatigue,2,post_training_note,matchday,4
+482,2024-11-07,John Pierce,Tigre Azul,I hide my back pain to avoid being benched.,euphoria,1,interview,recovery,5
+483,2025-01-25,Allison Hill,Defensa Joven,Coach complimented me but I still doubt myself.,euphoria,2,tweet,media,2
+484,2024-06-28,John Anderson,Tigre Azul,Coach keeps yelling but never asks what is going on with me.,anxiety,5,psychologist_report,training,4
+485,2024-06-09,Patrick Thornton,Defensa Joven,Worried about re-injury. It is always on my mind.,resilience,4,interview,training,4
+486,2024-08-25,Joshua Cooke,Atletico Laguna,Thinking too much before matches. Anxiety is high.,anxiety,2,post_training_note,recovery,4
+487,2024-10-02,Lindsey Walker,New Age United,Nights are sleepless before matchday.,resilience,2,interview,media,1
+488,2024-08-28,Angelica Keith,Atletico Laguna,"Tried my best, but still benched again.",anxiety,2,internal_chat,travel,1
+489,2025-04-01,David Smith,Tigre Azul,What if this injury never heals properly?,resilience,5,psychologist_report,training,3
+490,2024-07-30,Cynthia Moore,New Age United,Thinking too much before matches. Anxiety is high.,frustration,2,tweet,injury,2
+491,2025-03-30,Daniel Baker,Juventus U21,Thinking too much before matches. Anxiety is high.,confidence,1,tweet,contract,4
+492,2024-09-14,Jason Powell,Juventus U21,Lost focus due to stress at home.,fatigue,1,internal_chat,matchday,2
+493,2024-09-27,Spencer Haynes,Real Cordoba,"Team is winning, but I feel alone.",anxiety,4,post_training_note,travel,3
+494,2024-10-12,Robert Oconnell,Academia FC,I am grateful but emotionally distant today.,frustration,4,interview,contract,5
+495,2024-07-23,Paul Jones,Real Cordoba,Worried about re-injury. It is always on my mind.,motivation,3,internal_chat,injury,3
+496,2024-06-10,Daniel Kennedy,Juventus U21,Worried about re-injury. It is always on my mind.,resilience,2,post_training_note,media,4
+497,2024-12-17,Elizabeth Fowler,Academia FC,Worried about re-injury. It is always on my mind.,resilience,5,interview,recovery,5
+498,2025-03-24,Brian Ramirez,Boca Norte,What if this injury never heals properly?,insecurity,2,internal_chat,training,5
+499,2024-11-21,Daniel Murphy,Futbol Total,Barely slept because of family drama. Cannot focus.,insecurity,5,interview,family,3
+500,2024-08-14,Amber Wright,Atletico Laguna,I hide my back pain to avoid being benched.,frustration,1,post_training_note,recovery,4
+501,2024-07-27,Steve Sanchez,Tigre Azul,Lost focus due to stress at home.,motivation,4,internal_chat,family,5
+502,2024-11-01,Donna Landry,Futbol Total,Pretending to be okay in front of everyone is exhausting.,motivation,2,psychologist_report,family,3
+503,2024-12-30,Fred Smith,Real Cordoba,Pretending to be okay in front of everyone is exhausting.,fatigue,4,post_training_note,recovery,3
+504,2025-03-07,Jose Schultz,Juventus U21,Nights are sleepless before matchday.,insecurity,2,tweet,travel,4
+505,2024-09-04,Jessica Gross,New Age United,Parents expect too much. I feel pressure daily.,motivation,3,post_training_note,recovery,3
+506,2024-12-18,Rebecca Jackson,Futbol Total,Drank last night. Regret it already.,motivation,2,internal_chat,training,3
+507,2025-01-09,Michael Elliott,Academia FC,"Team is winning, but I feel alone.",euphoria,5,internal_chat,travel,3
+508,2025-04-26,Colin Terry,Boca Norte,Nights are sleepless before matchday.,confidence,5,psychologist_report,recovery,2
+509,2025-02-21,Devon Flores,Juventus U21,I am grateful but emotionally distant today.,motivation,5,interview,media,1
+510,2025-04-16,Gerald Hensley,Real Cordoba,What if this injury never heals properly?,anxiety,2,psychologist_report,media,2
+511,2024-10-22,Patty Perez,Boca Norte,Worried about re-injury. It is always on my mind.,insecurity,2,psychologist_report,family,3
+512,2024-07-04,Jeffrey Johnson,Juventus U21,Worried about re-injury. It is always on my mind.,insecurity,5,post_training_note,injury,1
+513,2024-11-08,David Douglas Jr.,Academia FC,Parents expect too much. I feel pressure daily.,motivation,5,interview,travel,5
+514,2025-05-07,Richard Aguirre,Boca Norte,Media keeps targeting me even after good games.,anxiety,5,interview,training,2
+515,2025-03-22,Shannon Jones,Estudiantes del Sur,Pretending to be okay in front of everyone is exhausting.,fatigue,5,tweet,travel,2
+516,2024-06-23,Jose Schultz,Boca Norte,Social media attacks make me want to quit.,confidence,1,psychologist_report,family,2
+517,2024-11-23,Bryan Herrera,New Age United,Coach complimented me but I still doubt myself.,insecurity,1,post_training_note,injury,4
+518,2024-06-14,Kenneth Scott,Tigre Azul,Social media attacks make me want to quit.,fatigue,3,internal_chat,injury,3
+519,2024-12-02,Michelle Brown,Atletico Laguna,Drank last night. Regret it already.,confidence,1,psychologist_report,media,5
+520,2025-05-30,Devon Flores,Real Cordoba,Thinking too much before matches. Anxiety is high.,fatigue,4,interview,training,5
+521,2024-07-07,Aaron Wise,Real Cordoba,Barely slept because of family drama. Cannot focus.,insecurity,4,interview,injury,5
+522,2025-05-07,Zachary Hicks,Academia FC,What if this injury never heals properly?,frustration,3,interview,travel,3
+523,2024-10-06,William Baker,Academia FC,I love the game but feel lost lately.,motivation,2,psychologist_report,contract,1
+524,2025-01-16,Anthony Rodriguez,Futbol Total,She broke up with me last night. No energy for training.,confidence,1,tweet,contract,2
+525,2024-11-20,Cheyenne Horton,Defensa Joven,Parents expect too much. I feel pressure daily.,insecurity,1,internal_chat,contract,3
+526,2025-01-15,Debra Morton,Real Cordoba,Coach complimented me but I still doubt myself.,confidence,2,post_training_note,injury,2
+527,2024-11-11,Michael Elliott,New Age United,Drank last night. Regret it already.,frustration,3,internal_chat,travel,3
+528,2025-03-09,Judy Baker,New Age United,I love the game but feel lost lately.,euphoria,2,psychologist_report,contract,2
+529,2025-02-10,Courtney Gonzalez,Boca Norte,Tired of training. It feels like a loop.,motivation,1,post_training_note,media,3
+530,2024-11-16,Lisa Archer,Estudiantes del Sur,Coach keeps yelling but never asks what is going on with me.,euphoria,3,interview,family,1
+531,2024-09-27,Cheyenne Horton,Boca Norte,I am grateful but emotionally distant today.,resilience,4,tweet,contract,5
+532,2024-07-21,Sara Johnston,Atletico Laguna,Tired of training. It feels like a loop.,insecurity,5,internal_chat,matchday,2
+533,2024-11-11,Desiree Tyler,Defensa Joven,Nights are sleepless before matchday.,fatigue,3,internal_chat,recovery,3
+534,2024-06-15,Tricia Valencia,Defensa Joven,Drank last night. Regret it already.,resilience,3,tweet,family,1
+535,2024-10-11,Aaron Wise,New Age United,Tired of training. It feels like a loop.,euphoria,1,interview,travel,1
+536,2024-08-12,Jeffrey Johnson,New Age United,Coach keeps yelling but never asks what is going on with me.,confidence,3,tweet,travel,5
+537,2025-04-14,Cathy Robinson,Boca Norte,She broke up with me last night. No energy for training.,euphoria,3,psychologist_report,recovery,3
+538,2025-02-02,Ashley Barton,Academia FC,"Tried my best, but still benched again.",anxiety,5,psychologist_report,family,2
+539,2024-12-02,Eric Carney,Real Cordoba,Media keeps targeting me even after good games.,fatigue,5,psychologist_report,injury,4
+540,2025-04-26,Philip Cannon,Futbol Total,Lost focus due to stress at home.,euphoria,3,post_training_note,injury,1
+541,2025-03-01,Debra Morton,Atletico Laguna,I love the game but feel lost lately.,fatigue,4,internal_chat,recovery,1
+542,2025-05-30,Stephanie Ross,Estudiantes del Sur,I love the game but feel lost lately.,frustration,4,psychologist_report,training,5
+543,2024-10-25,Allen Rosales,Academia FC,"Tried my best, but still benched again.",insecurity,1,psychologist_report,media,3
+544,2024-07-11,Rebecca Valencia,Defensa Joven,"Team is winning, but I feel alone.",confidence,2,tweet,media,4
+545,2024-11-23,Fred Smith,Real Cordoba,Thinking too much before matches. Anxiety is high.,anxiety,3,internal_chat,matchday,4
+546,2025-04-30,Susan Serrano,Atletico Laguna,Barely slept because of family drama. Cannot focus.,anxiety,5,psychologist_report,recovery,4
+547,2024-07-18,Philip Cannon,New Age United,Coach complimented me but I still doubt myself.,insecurity,4,post_training_note,travel,3
+548,2024-09-09,Shannon Rivera,Boca Norte,Coach keeps yelling but never asks what is going on with me.,motivation,5,psychologist_report,injury,2
+549,2024-11-23,Gina Moore,Defensa Joven,Tired of training. It feels like a loop.,euphoria,1,internal_chat,contract,1
+550,2025-01-21,Diana May,Defensa Joven,"Tried my best, but still benched again.",anxiety,1,post_training_note,family,3
+551,2024-11-09,Daniel Baker,Juventus U21,She broke up with me last night. No energy for training.,fatigue,3,post_training_note,injury,4
+552,2024-12-27,Elizabeth Oliver DDS,New Age United,Thinking too much before matches. Anxiety is high.,confidence,3,psychologist_report,media,1
+553,2024-07-07,Bryan Herrera,Tigre Azul,I hide my back pain to avoid being benched.,euphoria,2,psychologist_report,matchday,1
+554,2024-11-07,Denise Davenport,New Age United,Pretending to be okay in front of everyone is exhausting.,resilience,1,post_training_note,family,4
+555,2025-05-11,Shelly Alexander,Estudiantes del Sur,She broke up with me last night. No energy for training.,motivation,1,internal_chat,matchday,4
+556,2024-10-05,John Daniel,Boca Norte,Parents expect too much. I feel pressure daily.,insecurity,1,interview,family,1
+557,2025-03-23,Kevin Walters,New Age United,Barely slept because of family drama. Cannot focus.,motivation,3,post_training_note,training,5
+558,2024-10-16,Kimberly Gibson,Atletico Laguna,Coach complimented me but I still doubt myself.,anxiety,4,internal_chat,training,1
+559,2024-09-01,Amber Wright,Juventus U21,Pretending to be okay in front of everyone is exhausting.,confidence,2,interview,contract,2
+560,2024-10-14,Rebecca Jackson,Academia FC,Barely slept because of family drama. Cannot focus.,resilience,4,tweet,media,2
+561,2025-04-05,Margaret Hawkins DDS,Academia FC,Social media attacks make me want to quit.,euphoria,4,tweet,contract,5
+562,2024-08-11,Noah Rhodes,Tigre Azul,Worried about re-injury. It is always on my mind.,frustration,5,post_training_note,media,3
+563,2024-07-06,John Pierce,Academia FC,Worried about re-injury. It is always on my mind.,frustration,3,psychologist_report,recovery,1
+564,2024-12-22,Pamela Boyd,Atletico Laguna,Parents expect too much. I feel pressure daily.,motivation,1,psychologist_report,matchday,2
+565,2025-02-07,Kathy Rivas,Defensa Joven,Thinking too much before matches. Anxiety is high.,insecurity,1,internal_chat,matchday,1
+566,2024-07-21,Cristian Santos,New Age United,What if this injury never heals properly?,resilience,3,post_training_note,family,5
+567,2024-12-30,Shane Henderson,Defensa Joven,Thinking too much before matches. Anxiety is high.,anxiety,1,post_training_note,travel,4
+568,2024-12-22,Laura Roberts,Atletico Laguna,I am grateful but emotionally distant today.,confidence,4,psychologist_report,training,5
+569,2024-08-21,Carol Tucker,Tigre Azul,What if this injury never heals properly?,frustration,4,interview,recovery,5
+570,2025-05-24,Stephanie Byrd,Real Cordoba,What if this injury never heals properly?,insecurity,3,interview,matchday,5
+571,2025-04-04,Tracy House,Real Cordoba,Social media attacks make me want to quit.,frustration,4,post_training_note,matchday,2
+572,2024-10-20,Tricia Valencia,Atletico Laguna,Thinking too much before matches. Anxiety is high.,motivation,5,interview,contract,5
+573,2024-10-21,Matthew Harrington,Academia FC,Tired of training. It feels like a loop.,frustration,4,psychologist_report,recovery,4
+574,2025-03-16,Michael Wang,Boca Norte,Media keeps targeting me even after good games.,motivation,1,psychologist_report,recovery,4
+575,2025-04-21,Barbara Dudley,New Age United,Worried about re-injury. It is always on my mind.,confidence,3,psychologist_report,injury,4
+576,2025-02-12,Patricia Rodriguez,Tigre Azul,Tired of training. It feels like a loop.,euphoria,5,post_training_note,travel,3
+577,2025-04-19,Larry Dixon,Juventus U21,Parents expect too much. I feel pressure daily.,confidence,5,post_training_note,training,5
+578,2024-08-03,Kristen Davis,Real Cordoba,Thinking too much before matches. Anxiety is high.,frustration,4,internal_chat,training,4
+579,2024-09-06,Bryan Herrera,Boca Norte,She broke up with me last night. No energy for training.,motivation,1,interview,family,3
+580,2024-07-16,Katie Suarez,Academia FC,Barely slept because of family drama. Cannot focus.,confidence,3,tweet,matchday,5
+581,2024-08-02,Garrett Lin,Real Cordoba,Thinking too much before matches. Anxiety is high.,confidence,3,post_training_note,training,5
+582,2024-09-14,Eric Carney,Futbol Total,Coach keeps yelling but never asks what is going on with me.,resilience,3,tweet,injury,1
+583,2024-08-22,Shannon Jones,Tigre Azul,What if this injury never heals properly?,confidence,2,post_training_note,training,5
+584,2024-08-13,Elizabeth Kelley,Estudiantes del Sur,Barely slept because of family drama. Cannot focus.,euphoria,1,post_training_note,contract,1
+585,2025-01-26,Michael Lyons,Futbol Total,Thinking too much before matches. Anxiety is high.,frustration,4,internal_chat,training,2
+586,2024-08-05,Jessica Stephens,Real Cordoba,I love the game but feel lost lately.,anxiety,4,internal_chat,matchday,2
+587,2025-03-29,Shelia Wallace,Boca Norte,I love the game but feel lost lately.,confidence,5,psychologist_report,media,3
+588,2025-03-28,Amber Kidd,Juventus U21,I am grateful but emotionally distant today.,resilience,5,post_training_note,travel,1
+589,2025-02-16,Jason Powell,Atletico Laguna,I am grateful but emotionally distant today.,resilience,3,post_training_note,media,2
+590,2024-07-06,Jordan Henderson,Boca Norte,Coach complimented me but I still doubt myself.,fatigue,5,tweet,contract,2
+591,2024-08-14,Rebecca Valencia,Futbol Total,Coach complimented me but I still doubt myself.,fatigue,3,psychologist_report,media,2
+592,2025-04-03,Kathleen Moran,Academia FC,Thinking too much before matches. Anxiety is high.,frustration,3,interview,recovery,5
+593,2025-02-05,Keith Jennings,Estudiantes del Sur,"Team is winning, but I feel alone.",fatigue,4,internal_chat,training,1
+594,2024-12-15,Lisa Hensley,Boca Norte,Media keeps targeting me even after good games.,motivation,1,psychologist_report,family,2
+595,2024-12-04,Michael Evans,Atletico Laguna,Drank last night. Regret it already.,anxiety,1,tweet,contract,1
+596,2025-03-26,Marie Christian,Tigre Azul,Lost focus due to stress at home.,confidence,1,interview,contract,4
+597,2025-01-11,Carolyn Miller,Boca Norte,I hide my back pain to avoid being benched.,fatigue,1,post_training_note,travel,4
+598,2025-03-29,Katherine Salas,Defensa Joven,Nights are sleepless before matchday.,motivation,1,tweet,contract,5
+599,2025-01-18,Kirk Carter,Futbol Total,Lost focus due to stress at home.,euphoria,2,tweet,recovery,4
+600,2024-11-28,Matthew Mcmillan,Juventus U21,What if this injury never heals properly?,anxiety,5,internal_chat,travel,3
+601,2025-02-26,Margaret Hawkins DDS,Boca Norte,Drank last night. Regret it already.,fatigue,2,psychologist_report,family,1
+602,2025-05-31,Angie Henderson,Defensa Joven,Parents expect too much. I feel pressure daily.,anxiety,1,psychologist_report,injury,2
+603,2025-05-15,Justin Baker,Estudiantes del Sur,"Tried my best, but still benched again.",confidence,5,interview,injury,3
+604,2025-01-12,Cassandra Gaines,Defensa Joven,Tired of training. It feels like a loop.,euphoria,2,interview,training,3
+605,2025-02-11,Denise Davenport,New Age United,"Team is winning, but I feel alone.",insecurity,1,tweet,contract,4
+606,2025-02-08,Sharon Cochran,Defensa Joven,Thinking too much before matches. Anxiety is high.,resilience,3,psychologist_report,recovery,1
+607,2025-02-04,Carolyn Miller,Tigre Azul,Pretending to be okay in front of everyone is exhausting.,resilience,4,psychologist_report,contract,2
+608,2024-10-10,Margaret Hawkins DDS,Defensa Joven,I am grateful but emotionally distant today.,frustration,4,tweet,family,3
+609,2025-05-08,Lisa Hensley,Academia FC,Lost focus due to stress at home.,confidence,4,internal_chat,family,5
+610,2025-02-05,Jessica Smith,Defensa Joven,Tired of training. It feels like a loop.,frustration,1,psychologist_report,matchday,2
+611,2024-10-07,Nathan Maldonado,Futbol Total,Barely slept because of family drama. Cannot focus.,insecurity,1,psychologist_report,travel,4
+612,2024-08-04,Sherri Baker,New Age United,Coach keeps yelling but never asks what is going on with me.,confidence,3,internal_chat,training,1
+613,2024-11-24,Cassandra Gaines,Tigre Azul,What if this injury never heals properly?,fatigue,5,internal_chat,contract,5
+614,2024-07-03,Mary Marshall,Boca Norte,I am grateful but emotionally distant today.,confidence,4,post_training_note,injury,2
+615,2024-12-06,Gabrielle Davis,Boca Norte,Pretending to be okay in front of everyone is exhausting.,motivation,5,internal_chat,matchday,2
+616,2024-11-25,Cassandra Gaines,Defensa Joven,Tired of training. It feels like a loop.,frustration,3,tweet,training,3
+617,2025-02-07,Amber Wright,Real Cordoba,I am grateful but emotionally distant today.,insecurity,1,post_training_note,media,2
+618,2024-10-02,Shelly Alexander,Futbol Total,Media keeps targeting me even after good games.,insecurity,5,tweet,media,1
+619,2025-04-12,Denise Jones,Defensa Joven,Coach keeps yelling but never asks what is going on with me.,anxiety,1,internal_chat,matchday,1
+620,2024-09-21,Margaret Coleman,Estudiantes del Sur,I am grateful but emotionally distant today.,frustration,3,psychologist_report,injury,2
+621,2025-01-22,Evelyn Galvan,Boca Norte,Tired of training. It feels like a loop.,anxiety,2,psychologist_report,contract,3
+622,2024-06-28,Megan Orr,Futbol Total,Pretending to be okay in front of everyone is exhausting.,anxiety,5,internal_chat,recovery,5
+623,2024-10-21,Tammie Bright,Juventus U21,"Tried my best, but still benched again.",frustration,3,internal_chat,contract,5
+624,2024-12-21,William Barrett,Real Cordoba,Thinking too much before matches. Anxiety is high.,resilience,2,psychologist_report,training,3
+625,2024-07-05,Joyce Solis,Estudiantes del Sur,Worried about re-injury. It is always on my mind.,euphoria,3,post_training_note,recovery,4
+626,2024-10-05,Joel Williams,Estudiantes del Sur,"Tried my best, but still benched again.",anxiety,5,interview,injury,1
+627,2024-12-03,Jennifer Adkins,Boca Norte,What if this injury never heals properly?,motivation,3,psychologist_report,contract,4
+628,2024-11-29,Theresa Clark,Atletico Laguna,Lost focus due to stress at home.,anxiety,3,post_training_note,recovery,3
+629,2024-06-21,Michael Bradshaw,Defensa Joven,"Tried my best, but still benched again.",confidence,5,internal_chat,media,4
+630,2024-06-29,Fred Smith,Atletico Laguna,Media keeps targeting me even after good games.,euphoria,3,internal_chat,training,3
+631,2024-10-28,Ryan Munoz,Academia FC,Coach keeps yelling but never asks what is going on with me.,insecurity,5,psychologist_report,matchday,5
+632,2025-04-25,Jessica Garcia,Atletico Laguna,Nights are sleepless before matchday.,confidence,2,tweet,travel,5
+633,2024-09-26,Garrett Lin,Estudiantes del Sur,"Tried my best, but still benched again.",anxiety,4,interview,training,4
+634,2024-07-06,Joseph Coleman,Defensa Joven,Tired of training. It feels like a loop.,motivation,2,interview,media,4
+635,2025-02-12,Diane Evans,New Age United,Parents expect too much. I feel pressure daily.,anxiety,2,interview,media,1
+636,2025-05-08,Frank Cordova,Defensa Joven,She broke up with me last night. No energy for training.,euphoria,4,psychologist_report,training,5
+637,2025-05-05,Jose Schultz,Defensa Joven,I hide my back pain to avoid being benched.,motivation,2,interview,injury,1
+638,2024-07-12,Adam Vaughan,Real Cordoba,Parents expect too much. I feel pressure daily.,motivation,1,tweet,training,4
+639,2025-01-31,Kimberly Gibson,Atletico Laguna,Drank last night. Regret it already.,anxiety,4,post_training_note,injury,3
+640,2025-01-23,Brittany Farmer,Academia FC,Drank last night. Regret it already.,insecurity,2,interview,travel,5
+641,2024-12-20,Alexander Collins,Defensa Joven,Social media attacks make me want to quit.,confidence,5,internal_chat,media,3
+642,2024-11-03,Benjamin Smith,New Age United,I hide my back pain to avoid being benched.,frustration,5,tweet,contract,1
+643,2024-12-03,Angela Lopez,New Age United,What if this injury never heals properly?,resilience,5,internal_chat,contract,1
+644,2025-01-18,Melissa Martinez,Defensa Joven,Pretending to be okay in front of everyone is exhausting.,confidence,4,post_training_note,contract,2
+645,2025-01-08,Michael Evans,Boca Norte,Coach keeps yelling but never asks what is going on with me.,euphoria,1,psychologist_report,media,5
+646,2025-04-10,James Brown,Academia FC,She broke up with me last night. No energy for training.,anxiety,1,psychologist_report,family,5
+647,2025-03-20,Denise Jacobs,Academia FC,I am grateful but emotionally distant today.,motivation,3,internal_chat,contract,1
+648,2025-05-20,Lori Guerrero,Estudiantes del Sur,Social media attacks make me want to quit.,confidence,2,psychologist_report,travel,3
+649,2024-06-22,Lauren Daniels,Estudiantes del Sur,What if this injury never heals properly?,fatigue,2,tweet,recovery,5
+650,2024-11-28,Jeffrey Chavez,Futbol Total,I am grateful but emotionally distant today.,insecurity,2,internal_chat,matchday,1
+651,2025-05-26,Christine Wright,Academia FC,Tired of training. It feels like a loop.,insecurity,2,interview,training,2
+652,2025-04-17,Matthew Mcmillan,Real Cordoba,Coach complimented me but I still doubt myself.,motivation,5,interview,training,4
+653,2025-01-15,Shane Henderson,Real Cordoba,Media keeps targeting me even after good games.,motivation,4,interview,travel,5
+654,2025-02-15,Jessica Gross,Tigre Azul,Tired of training. It feels like a loop.,insecurity,2,post_training_note,travel,4
+655,2024-08-19,Robert Oconnell,Estudiantes del Sur,I love the game but feel lost lately.,frustration,4,psychologist_report,family,3
+656,2024-10-09,Shannon Rivera,Futbol Total,Worried about re-injury. It is always on my mind.,fatigue,5,interview,travel,2
+657,2025-01-27,Dustin Jordan,Futbol Total,Coach keeps yelling but never asks what is going on with me.,motivation,5,interview,training,5
+658,2024-12-08,Kimberly Gibson,Tigre Azul,I am grateful but emotionally distant today.,euphoria,3,post_training_note,injury,4
+659,2024-12-18,Shannon Jones,New Age United,"Team is winning, but I feel alone.",fatigue,3,interview,travel,4
+660,2024-08-04,Briana Murray,Defensa Joven,Coach complimented me but I still doubt myself.,fatigue,4,psychologist_report,travel,1
+661,2024-07-01,Jessica Garcia,Academia FC,Social media attacks make me want to quit.,anxiety,3,interview,recovery,4
+662,2024-11-28,Megan Orr,Atletico Laguna,I love the game but feel lost lately.,resilience,4,psychologist_report,training,3
+663,2024-07-17,Ashley Waller,Real Cordoba,What if this injury never heals properly?,frustration,2,interview,travel,4
+664,2025-04-17,Matthew Harrington,Academia FC,Coach complimented me but I still doubt myself.,motivation,2,post_training_note,matchday,3
+665,2025-05-22,John Pierce,New Age United,Social media attacks make me want to quit.,insecurity,1,internal_chat,family,3
+666,2025-04-28,Crystal Johnson,Defensa Joven,Worried about re-injury. It is always on my mind.,motivation,4,post_training_note,family,1
+667,2024-10-18,Anthony Rodriguez,New Age United,Social media attacks make me want to quit.,confidence,1,psychologist_report,family,2
+668,2025-03-11,Stephen Mckee,Tigre Azul,Coach complimented me but I still doubt myself.,euphoria,5,psychologist_report,matchday,3
+669,2024-07-09,Lindsay Martinez,Futbol Total,Coach keeps yelling but never asks what is going on with me.,anxiety,1,tweet,travel,4
+670,2024-12-19,Alexander Collins,Boca Norte,I am grateful but emotionally distant today.,euphoria,5,internal_chat,training,4
+671,2025-02-12,John Pierce,Academia FC,"Tried my best, but still benched again.",resilience,3,tweet,contract,3
+672,2024-08-13,Stephen Mckee,Real Cordoba,I am grateful but emotionally distant today.,motivation,3,psychologist_report,travel,4
+673,2024-06-22,Mrs. Kristen Reyes,Juventus U21,Nights are sleepless before matchday.,frustration,5,tweet,injury,5
+674,2024-09-11,John Daniel,Academia FC,Drank last night. Regret it already.,fatigue,4,post_training_note,recovery,1
+675,2025-03-08,Helen Jones,Defensa Joven,Parents expect too much. I feel pressure daily.,confidence,5,internal_chat,recovery,4
+676,2024-11-24,John Daniel,Atletico Laguna,Worried about re-injury. It is always on my mind.,insecurity,2,psychologist_report,injury,1
+677,2024-11-24,Denise Mccann,Defensa Joven,Tired of training. It feels like a loop.,motivation,3,psychologist_report,family,3
+678,2024-12-27,Shane Henderson,Boca Norte,Thinking too much before matches. Anxiety is high.,frustration,5,psychologist_report,recovery,3
+679,2024-12-27,Paul Castaneda,Defensa Joven,Barely slept because of family drama. Cannot focus.,fatigue,2,psychologist_report,recovery,3
+680,2025-01-29,Rebecca Valencia,Futbol Total,I hide my back pain to avoid being benched.,fatigue,2,psychologist_report,contract,1
+681,2024-08-07,Jason Powell,Estudiantes del Sur,Lost focus due to stress at home.,anxiety,1,internal_chat,training,4
+682,2024-10-26,Tanya Kim,Estudiantes del Sur,Coach keeps yelling but never asks what is going on with me.,motivation,4,tweet,injury,5
+683,2024-10-29,Tanya Kim,Estudiantes del Sur,Drank last night. Regret it already.,confidence,2,interview,family,1
+684,2025-05-29,Joseph Coleman,Futbol Total,I love the game but feel lost lately.,anxiety,1,interview,travel,5
+685,2024-09-24,Shannon Rivera,Academia FC,She broke up with me last night. No energy for training.,resilience,4,psychologist_report,recovery,4
+686,2024-11-04,Gerald Hensley,Academia FC,Parents expect too much. I feel pressure daily.,resilience,1,internal_chat,contract,4
+687,2024-11-12,John Bishop,Estudiantes del Sur,Pretending to be okay in front of everyone is exhausting.,resilience,3,interview,family,1
+688,2025-04-03,Anna Henderson,Academia FC,Drank last night. Regret it already.,euphoria,3,post_training_note,injury,2
+689,2024-10-16,Samantha Garcia,New Age United,Social media attacks make me want to quit.,insecurity,2,post_training_note,injury,5
+690,2025-02-25,Jonathan Peterson,Boca Norte,Drank last night. Regret it already.,confidence,2,interview,media,3
+691,2025-01-25,Ryan Gonzalez,Futbol Total,Pretending to be okay in front of everyone is exhausting.,fatigue,2,interview,travel,5
+692,2024-06-27,Allen Rosales,Futbol Total,Media keeps targeting me even after good games.,anxiety,4,internal_chat,media,4
+693,2025-04-09,Anthony Everett,Real Cordoba,Media keeps targeting me even after good games.,resilience,4,tweet,family,4
+694,2025-02-07,Carolyn Miller,Estudiantes del Sur,She broke up with me last night. No energy for training.,insecurity,1,psychologist_report,matchday,1
+695,2025-02-13,Richard Rodriguez,Atletico Laguna,Social media attacks make me want to quit.,frustration,4,tweet,family,2
+696,2024-10-14,Lindsay Martinez,Defensa Joven,Nights are sleepless before matchday.,fatigue,3,internal_chat,travel,3
+697,2024-07-02,Connor West,Defensa Joven,Coach complimented me but I still doubt myself.,euphoria,5,interview,media,5
+698,2024-10-13,Joyce Solis,Defensa Joven,Thinking too much before matches. Anxiety is high.,confidence,4,internal_chat,travel,2
+699,2024-07-13,Victoria Larson,Real Cordoba,Media keeps targeting me even after good games.,anxiety,3,post_training_note,travel,3
+700,2025-01-09,Sherri Baker,Juventus U21,What if this injury never heals properly?,resilience,2,tweet,injury,4
+701,2025-02-25,Stephanie Manning,Atletico Laguna,Coach complimented me but I still doubt myself.,insecurity,3,post_training_note,injury,4
+702,2024-11-04,Kimberly Gibson,Real Cordoba,"Team is winning, but I feel alone.",anxiety,2,internal_chat,media,1
+703,2024-09-25,Larry Dixon,Atletico Laguna,Worried about re-injury. It is always on my mind.,euphoria,2,post_training_note,training,1
+704,2024-09-12,Joshua Blair,Juventus U21,Social media attacks make me want to quit.,motivation,1,post_training_note,training,5
+705,2025-03-15,Mark Perez,Atletico Laguna,Coach complimented me but I still doubt myself.,anxiety,1,post_training_note,family,2
+706,2025-05-03,Ashley Waller,Futbol Total,"Tried my best, but still benched again.",confidence,2,psychologist_report,media,2
+707,2025-02-16,Dylan Miller,Tigre Azul,Lost focus due to stress at home.,resilience,4,post_training_note,family,3
+708,2025-05-24,Amanda Jones,Real Cordoba,Media keeps targeting me even after good games.,anxiety,5,interview,recovery,5
+709,2025-01-27,Lisa Allen,Boca Norte,Tired of training. It feels like a loop.,fatigue,3,post_training_note,contract,1
+710,2025-05-12,Philip Cannon,Real Cordoba,"Tried my best, but still benched again.",resilience,4,tweet,media,5
+711,2024-08-04,Michelle Brown,Tigre Azul,Coach keeps yelling but never asks what is going on with me.,anxiety,3,tweet,recovery,4
+712,2024-10-14,Shelly Alexander,Tigre Azul,Social media attacks make me want to quit.,confidence,3,internal_chat,travel,1
+713,2024-07-08,Stephanie Manning,Estudiantes del Sur,I hide my back pain to avoid being benched.,motivation,5,tweet,contract,2
+714,2025-01-19,Christopher Smith,Academia FC,"Team is winning, but I feel alone.",insecurity,2,psychologist_report,travel,1
+715,2025-02-19,Angelica Keith,Futbol Total,Drank last night. Regret it already.,frustration,4,psychologist_report,family,4
+716,2024-07-31,Joyce Solis,Academia FC,Drank last night. Regret it already.,insecurity,2,internal_chat,media,1
+717,2025-05-29,William Baker,Atletico Laguna,Pretending to be okay in front of everyone is exhausting.,confidence,5,post_training_note,family,2
+718,2024-10-20,Olivia Harris,Futbol Total,Thinking too much before matches. Anxiety is high.,motivation,2,internal_chat,matchday,4
+719,2024-10-05,Anna Henderson,Juventus U21,"Tried my best, but still benched again.",fatigue,2,post_training_note,matchday,3
+720,2025-02-16,Jeffrey Chandler,Juventus U21,Media keeps targeting me even after good games.,motivation,4,psychologist_report,injury,5
+721,2025-03-05,Anthony Everett,Atletico Laguna,Social media attacks make me want to quit.,resilience,4,internal_chat,injury,3
+722,2025-02-19,Fred Smith,New Age United,She broke up with me last night. No energy for training.,fatigue,4,internal_chat,recovery,4
+723,2024-11-06,Denise Jacobs,Futbol Total,Drank last night. Regret it already.,insecurity,1,internal_chat,contract,4
+724,2024-07-27,Spencer Haynes,Real Cordoba,I hide my back pain to avoid being benched.,motivation,2,post_training_note,training,4
+725,2025-01-24,Kimberly Gibson,Futbol Total,Social media attacks make me want to quit.,insecurity,3,tweet,media,2
+726,2025-03-09,Patty Perez,Academia FC,Tired of training. It feels like a loop.,frustration,3,post_training_note,family,4
+727,2025-06-06,Cameron Parker,Defensa Joven,She broke up with me last night. No energy for training.,euphoria,1,psychologist_report,travel,5
+728,2024-07-09,Alyssa Long,Tigre Azul,What if this injury never heals properly?,fatigue,5,internal_chat,travel,2
+729,2024-10-05,Helen Jones,Tigre Azul,She broke up with me last night. No energy for training.,confidence,5,psychologist_report,injury,4
+730,2025-01-10,Philip Cannon,Futbol Total,What if this injury never heals properly?,confidence,1,interview,injury,2
+731,2024-10-31,Rebecca Henderson,Tigre Azul,Lost focus due to stress at home.,anxiety,5,internal_chat,media,5
+732,2025-02-11,Kimberly Gutierrez,Futbol Total,Thinking too much before matches. Anxiety is high.,resilience,4,psychologist_report,matchday,5
+733,2025-04-10,Angelica Keith,Defensa Joven,Media keeps targeting me even after good games.,fatigue,1,post_training_note,recovery,2
+734,2024-10-12,Joseph Knight,Atletico Laguna,Nights are sleepless before matchday.,confidence,2,interview,media,1
+735,2025-04-18,Shannon James,Defensa Joven,Thinking too much before matches. Anxiety is high.,confidence,3,interview,media,3
+736,2024-07-26,Jeffrey Chavez,Academia FC,Media keeps targeting me even after good games.,confidence,3,tweet,injury,4
+737,2025-02-22,Christopher Parker,Tigre Azul,Tired of training. It feels like a loop.,insecurity,2,internal_chat,injury,3
+738,2025-03-06,April Frost,Defensa Joven,Worried about re-injury. It is always on my mind.,insecurity,2,interview,recovery,5
+739,2025-04-24,Jessica Garcia,New Age United,Coach complimented me but I still doubt myself.,fatigue,3,post_training_note,injury,3
+740,2025-03-20,Timothy Duncan,Juventus U21,Tired of training. It feels like a loop.,frustration,1,psychologist_report,media,1
+741,2025-02-28,Holly Wood,Futbol Total,Pretending to be okay in front of everyone is exhausting.,confidence,2,internal_chat,matchday,3
+742,2025-05-27,Jeremy Reed,Boca Norte,Social media attacks make me want to quit.,fatigue,1,tweet,contract,3
+743,2024-12-28,Sherri Baker,Tigre Azul,Barely slept because of family drama. Cannot focus.,confidence,1,post_training_note,matchday,5
+744,2024-07-13,Lindsay Martinez,Academia FC,"Team is winning, but I feel alone.",resilience,1,interview,family,5
+745,2025-02-12,Jasmin Alvarado,Tigre Azul,Worried about re-injury. It is always on my mind.,fatigue,1,psychologist_report,training,4
+746,2025-02-22,Danny Morgan,Futbol Total,Nights are sleepless before matchday.,insecurity,2,psychologist_report,contract,2
+747,2024-11-18,Stephanie Byrd,New Age United,Nights are sleepless before matchday.,insecurity,1,interview,injury,4
+748,2024-12-21,Michael Lyons,Boca Norte,Pretending to be okay in front of everyone is exhausting.,anxiety,2,interview,travel,5
+749,2024-10-25,Denise Davenport,Defensa Joven,What if this injury never heals properly?,confidence,3,tweet,injury,4
+750,2024-06-14,Debra Morton,Boca Norte,"Team is winning, but I feel alone.",resilience,5,psychologist_report,contract,3
+751,2024-10-25,Debra Christian,Academia FC,Drank last night. Regret it already.,resilience,4,post_training_note,travel,3
+752,2024-10-04,Allison Hill,Tigre Azul,"Tried my best, but still benched again.",motivation,5,psychologist_report,family,5
+753,2024-08-16,Daniel Wagner,Atletico Laguna,I hide my back pain to avoid being benched.,euphoria,3,internal_chat,family,5
+754,2024-08-29,Shelia Wallace,Academia FC,Nights are sleepless before matchday.,anxiety,1,internal_chat,recovery,4
+755,2024-10-17,Angela Vaughn,New Age United,Media keeps targeting me even after good games.,fatigue,3,interview,contract,4
+756,2025-03-31,Jeffrey Chandler,Atletico Laguna,"Tried my best, but still benched again.",frustration,5,post_training_note,contract,3
+757,2024-12-12,Brittany Farmer,Defensa Joven,Social media attacks make me want to quit.,anxiety,4,interview,training,2
+758,2024-08-20,Devon Flores,Tigre Azul,I love the game but feel lost lately.,insecurity,1,internal_chat,injury,2
+759,2024-09-02,Lawrence Adkins,Boca Norte,"Team is winning, but I feel alone.",frustration,2,interview,matchday,5
+760,2024-07-30,Allen Rosales,Tigre Azul,"Tried my best, but still benched again.",motivation,3,interview,media,4
+761,2024-08-06,Alyssa Day,Academia FC,I hide my back pain to avoid being benched.,anxiety,1,post_training_note,recovery,2
+762,2024-07-06,Ryan Gonzalez,Academia FC,Worried about re-injury. It is always on my mind.,euphoria,4,tweet,travel,4
+763,2024-09-29,Sarah Moore,New Age United,Thinking too much before matches. Anxiety is high.,frustration,4,interview,matchday,1
+764,2025-04-30,Amanda Jones,Boca Norte,Drank last night. Regret it already.,frustration,4,interview,travel,3
+765,2025-04-09,Tracy House,New Age United,Social media attacks make me want to quit.,euphoria,4,post_training_note,contract,4
+766,2024-07-16,Carolyn Miller,Estudiantes del Sur,Tired of training. It feels like a loop.,euphoria,2,internal_chat,family,4
+767,2024-12-21,Courtney Mills,Defensa Joven,I love the game but feel lost lately.,frustration,1,post_training_note,travel,4
+768,2025-04-02,Samantha Garcia,Defensa Joven,Barely slept because of family drama. Cannot focus.,resilience,3,interview,matchday,2
+769,2025-01-02,Joshua Perry,New Age United,Lost focus due to stress at home.,confidence,5,psychologist_report,recovery,4
+770,2025-04-27,Ethan Adams,Futbol Total,Barely slept because of family drama. Cannot focus.,resilience,2,internal_chat,training,1
+771,2025-03-20,Stephanie Ross,Futbol Total,Coach complimented me but I still doubt myself.,anxiety,3,internal_chat,injury,2
+772,2025-05-16,Timothy Duncan,Atletico Laguna,Parents expect too much. I feel pressure daily.,confidence,1,tweet,contract,5
+773,2024-12-28,Matthew Moore,Futbol Total,Barely slept because of family drama. Cannot focus.,fatigue,5,post_training_note,media,5
+774,2024-06-21,Ryan Munoz,Boca Norte,I love the game but feel lost lately.,motivation,3,psychologist_report,matchday,3
+775,2025-02-19,Joyce Solis,Futbol Total,Coach complimented me but I still doubt myself.,fatigue,1,post_training_note,matchday,1
+776,2024-10-15,Debra Davidson,Boca Norte,Drank last night. Regret it already.,resilience,1,internal_chat,family,4
+777,2025-05-13,Spencer Haynes,Futbol Total,I am grateful but emotionally distant today.,frustration,3,post_training_note,training,1
+778,2025-03-31,Anna Henderson,Futbol Total,Tired of training. It feels like a loop.,confidence,5,internal_chat,matchday,5
+779,2025-02-02,Michelle Evans,Academia FC,"Tried my best, but still benched again.",resilience,4,post_training_note,media,4
+780,2024-07-27,Ryan Munoz,Defensa Joven,Lost focus due to stress at home.,resilience,3,psychologist_report,family,1
+781,2025-01-24,James Ferrell,Atletico Laguna,I am grateful but emotionally distant today.,motivation,5,tweet,contract,2
+782,2024-10-31,Megan Young,Defensa Joven,I am grateful but emotionally distant today.,anxiety,1,post_training_note,contract,4
+783,2024-08-05,Katherine Salas,Futbol Total,I love the game but feel lost lately.,anxiety,4,tweet,injury,2
+784,2024-08-09,Lori Guerrero,Academia FC,Media keeps targeting me even after good games.,euphoria,2,interview,contract,1
+785,2024-08-16,Jordan Henderson,Atletico Laguna,Tired of training. It feels like a loop.,anxiety,4,psychologist_report,media,4
+786,2025-04-25,Lindsey Walker,Juventus U21,Nights are sleepless before matchday.,frustration,2,tweet,media,3
+787,2025-03-03,Brian Ramirez,Defensa Joven,"Team is winning, but I feel alone.",insecurity,3,post_training_note,family,3
+788,2025-04-02,Megan Young,Futbol Total,Pretending to be okay in front of everyone is exhausting.,anxiety,2,internal_chat,family,5
+789,2025-02-04,David Smith,Estudiantes del Sur,I hide my back pain to avoid being benched.,euphoria,2,internal_chat,injury,4
+790,2025-04-17,Paula Moreno,Real Cordoba,Media keeps targeting me even after good games.,confidence,3,psychologist_report,travel,1
+791,2025-05-23,Olivia Harris,Real Cordoba,Media keeps targeting me even after good games.,anxiety,2,psychologist_report,matchday,3
+792,2024-08-10,Brian Lee,Tigre Azul,Drank last night. Regret it already.,insecurity,2,psychologist_report,contract,5
+793,2025-03-14,Nathan Maldonado,New Age United,Parents expect too much. I feel pressure daily.,confidence,3,post_training_note,contract,4
+794,2024-11-23,Justin Torres,Boca Norte,She broke up with me last night. No energy for training.,insecurity,3,post_training_note,matchday,3
+795,2024-06-23,Kimberly Gibson,Juventus U21,Parents expect too much. I feel pressure daily.,confidence,1,psychologist_report,travel,4
+796,2024-11-13,Margaret Hawkins DDS,Academia FC,I am grateful but emotionally distant today.,motivation,2,tweet,recovery,5
+797,2024-10-26,Joseph Coleman,Atletico Laguna,"Tried my best, but still benched again.",confidence,2,post_training_note,family,1
+798,2025-02-24,Stephanie Ross,Academia FC,Media keeps targeting me even after good games.,confidence,4,internal_chat,training,5
+799,2025-03-13,Denise Jacobs,Estudiantes del Sur,Nights are sleepless before matchday.,anxiety,4,post_training_note,injury,1
+800,2024-09-07,Jessica Stephens,Tigre Azul,What if this injury never heals properly?,confidence,5,psychologist_report,recovery,2
+801,2024-11-26,John Pierce,Atletico Laguna,Thinking too much before matches. Anxiety is high.,anxiety,1,internal_chat,training,3
+802,2025-01-30,Jessica Stephens,Defensa Joven,Worried about re-injury. It is always on my mind.,insecurity,5,interview,media,2
+803,2024-09-25,Angelica Keith,Academia FC,I am grateful but emotionally distant today.,motivation,2,tweet,media,1
+804,2025-03-26,Paul Jones,New Age United,What if this injury never heals properly?,motivation,4,tweet,family,4
+805,2025-03-24,Michael Bradshaw,Atletico Laguna,What if this injury never heals properly?,frustration,2,psychologist_report,matchday,1
+806,2025-04-07,Megan Orr,Tigre Azul,Parents expect too much. I feel pressure daily.,confidence,4,interview,matchday,1
+807,2024-11-28,Tanya Kim,Futbol Total,Barely slept because of family drama. Cannot focus.,confidence,4,post_training_note,recovery,4
+808,2024-09-05,Paula Moreno,Estudiantes del Sur,Coach complimented me but I still doubt myself.,motivation,2,interview,family,2
+809,2024-12-31,Elaine Brooks,Futbol Total,She broke up with me last night. No energy for training.,anxiety,2,internal_chat,injury,3
+810,2024-09-07,Lisa Jackson,New Age United,She broke up with me last night. No energy for training.,fatigue,3,internal_chat,matchday,1
+811,2024-10-05,Michael Lewis,Boca Norte,What if this injury never heals properly?,anxiety,3,interview,media,1
+812,2025-04-17,Laura Roberts,Estudiantes del Sur,Lost focus due to stress at home.,motivation,1,tweet,injury,3
+813,2025-04-07,Madison Poole,Boca Norte,Worried about re-injury. It is always on my mind.,insecurity,5,internal_chat,family,1
+814,2024-12-06,Matthew Moon,New Age United,Pretending to be okay in front of everyone is exhausting.,fatigue,3,interview,travel,3
+815,2025-05-24,Cynthia Rowe,Futbol Total,Barely slept because of family drama. Cannot focus.,motivation,1,interview,training,3
+816,2025-04-27,Frank Cordova,Estudiantes del Sur,"Tried my best, but still benched again.",insecurity,5,tweet,family,3
+817,2024-08-21,Patrick Thornton,Estudiantes del Sur,Coach complimented me but I still doubt myself.,resilience,2,interview,recovery,4
+818,2024-10-27,Kimberly Gibson,Real Cordoba,Social media attacks make me want to quit.,anxiety,5,psychologist_report,family,2
+819,2025-02-25,Stephen Mckee,Tigre Azul,Pretending to be okay in front of everyone is exhausting.,motivation,4,internal_chat,contract,2
+820,2025-01-14,Melissa Martinez,Boca Norte,She broke up with me last night. No energy for training.,resilience,3,interview,contract,5
+821,2024-11-25,Connie Lawrence,Futbol Total,"Tried my best, but still benched again.",fatigue,1,tweet,family,4
+822,2024-12-03,Mrs. Kristen Reyes,Academia FC,Thinking too much before matches. Anxiety is high.,motivation,1,tweet,injury,5
+823,2025-04-01,Elizabeth Perkins,Estudiantes del Sur,Coach complimented me but I still doubt myself.,motivation,2,psychologist_report,injury,2
+824,2024-09-24,Matthew Harrington,Real Cordoba,Social media attacks make me want to quit.,motivation,2,post_training_note,media,2
+825,2025-04-05,Kathryn Snyder,Academia FC,Thinking too much before matches. Anxiety is high.,confidence,4,internal_chat,family,2
+826,2024-11-02,Briana Murray,Defensa Joven,Nights are sleepless before matchday.,motivation,2,interview,injury,1
+827,2024-12-19,Tina Sanders,Juventus U21,Media keeps targeting me even after good games.,fatigue,1,tweet,travel,5
+828,2024-12-28,Shelly Alexander,New Age United,I love the game but feel lost lately.,insecurity,2,interview,training,4
+829,2024-11-16,Jason Stein,Defensa Joven,She broke up with me last night. No energy for training.,fatigue,4,internal_chat,recovery,5
+830,2024-08-08,Kenneth Scott,Defensa Joven,Parents expect too much. I feel pressure daily.,fatigue,2,interview,family,2
+831,2025-04-20,Aimee Montoya,Juventus U21,Lost focus due to stress at home.,motivation,2,internal_chat,recovery,4
+832,2024-08-23,Mrs. Kristen Reyes,Tigre Azul,Social media attacks make me want to quit.,anxiety,2,tweet,recovery,5
+833,2025-04-14,Cynthia Rowe,Atletico Laguna,Thinking too much before matches. Anxiety is high.,anxiety,1,interview,media,2
+834,2025-01-27,Marc Moore,Tigre Azul,Parents expect too much. I feel pressure daily.,insecurity,5,internal_chat,matchday,2
+835,2024-07-30,Jamie Smith,Tigre Azul,Coach complimented me but I still doubt myself.,frustration,3,post_training_note,matchday,4
+836,2025-05-12,Crystal Robinson,Academia FC,"Tried my best, but still benched again.",motivation,5,tweet,contract,3
+837,2024-09-12,Michael Powell,Futbol Total,Barely slept because of family drama. Cannot focus.,fatigue,3,interview,injury,4
+838,2024-06-27,Benjamin Smith,Juventus U21,Drank last night. Regret it already.,anxiety,2,tweet,training,3
+839,2025-02-11,Gina Moore,Estudiantes del Sur,Nights are sleepless before matchday.,frustration,2,interview,injury,1
+840,2024-12-10,Tammie Bright,Defensa Joven,Drank last night. Regret it already.,anxiety,3,interview,contract,4
+841,2025-05-12,Christopher Bass,Juventus U21,"Tried my best, but still benched again.",resilience,5,post_training_note,matchday,3
+842,2024-10-29,Tracy House,Tigre Azul,Social media attacks make me want to quit.,motivation,1,post_training_note,matchday,5
+843,2025-01-08,Angelica Tucker,Boca Norte,I am grateful but emotionally distant today.,anxiety,5,interview,recovery,2
+844,2025-06-04,Angela Vaughn,Atletico Laguna,Thinking too much before matches. Anxiety is high.,euphoria,5,internal_chat,recovery,1
+845,2024-07-16,David Smith,New Age United,Worried about re-injury. It is always on my mind.,confidence,1,post_training_note,family,4
+846,2025-03-10,Sara Johnston,Real Cordoba,I hide my back pain to avoid being benched.,euphoria,2,interview,family,3
+847,2025-05-01,Jonathan Peterson,Boca Norte,What if this injury never heals properly?,resilience,3,post_training_note,recovery,5
+848,2024-12-24,Brian Ramirez,Juventus U21,Social media attacks make me want to quit.,frustration,3,post_training_note,recovery,3
+849,2025-05-03,Christopher Bass,Atletico Laguna,Lost focus due to stress at home.,anxiety,5,internal_chat,travel,4
+850,2024-07-25,Shannon Jones,Defensa Joven,Nights are sleepless before matchday.,frustration,3,interview,recovery,3
+851,2024-09-25,David Martinez,Estudiantes del Sur,"Team is winning, but I feel alone.",euphoria,5,psychologist_report,media,4
+852,2024-07-09,Krista Gibson,Boca Norte,Worried about re-injury. It is always on my mind.,resilience,2,interview,travel,3
+853,2025-03-30,Elizabeth Oliver DDS,Estudiantes del Sur,Thinking too much before matches. Anxiety is high.,euphoria,2,internal_chat,recovery,2
+854,2024-08-08,Brent Jordan,Estudiantes del Sur,Coach complimented me but I still doubt myself.,confidence,3,interview,training,4
+855,2024-09-20,Michael Warner,New Age United,"Tried my best, but still benched again.",insecurity,1,interview,training,4
+856,2024-11-28,John Bishop,Defensa Joven,Social media attacks make me want to quit.,motivation,1,psychologist_report,media,1
+857,2025-05-24,William Barrett,Tigre Azul,Media keeps targeting me even after good games.,anxiety,4,interview,family,2
+858,2024-12-23,Nathan Freeman,Estudiantes del Sur,I love the game but feel lost lately.,confidence,2,psychologist_report,injury,4
+859,2024-08-03,Devon Flores,Estudiantes del Sur,"Tried my best, but still benched again.",insecurity,3,internal_chat,matchday,5
+860,2025-04-25,Desiree Tyler,Boca Norte,Media keeps targeting me even after good games.,fatigue,1,tweet,matchday,3
+861,2024-11-23,Allison Hill,Academia FC,Lost focus due to stress at home.,frustration,3,internal_chat,contract,5
+862,2024-07-12,Jeremy Dalton,Estudiantes del Sur,I am grateful but emotionally distant today.,resilience,4,post_training_note,travel,3
+863,2025-05-26,Elizabeth Oliver DDS,Academia FC,Barely slept because of family drama. Cannot focus.,anxiety,4,psychologist_report,contract,3
+864,2024-09-01,Stephanie Williams,Boca Norte,Lost focus due to stress at home.,insecurity,2,tweet,media,1
+865,2025-04-20,James Brown,Tigre Azul,Worried about re-injury. It is always on my mind.,motivation,2,post_training_note,travel,4
+866,2024-11-29,William Baker,Juventus U21,Media keeps targeting me even after good games.,insecurity,4,interview,travel,3
+867,2025-05-16,Denise Jacobs,Real Cordoba,Tired of training. It feels like a loop.,insecurity,5,post_training_note,travel,1
+868,2024-10-20,Tina Sanders,Futbol Total,What if this injury never heals properly?,insecurity,5,internal_chat,recovery,5
+869,2025-06-03,Kenneth Scott,Academia FC,Drank last night. Regret it already.,insecurity,5,interview,injury,1
+870,2024-06-17,Derek Zuniga,Tigre Azul,I love the game but feel lost lately.,confidence,3,internal_chat,recovery,5
+871,2024-11-15,Paula Moreno,New Age United,Tired of training. It feels like a loop.,fatigue,4,interview,training,4
+872,2024-06-27,Colin Terry,Estudiantes del Sur,Worried about re-injury. It is always on my mind.,euphoria,4,internal_chat,family,3
+873,2024-11-07,Stephanie Ross,Defensa Joven,Nights are sleepless before matchday.,motivation,4,post_training_note,recovery,2
+874,2024-12-18,Margaret Coleman,Defensa Joven,"Team is winning, but I feel alone.",resilience,3,tweet,media,5
+875,2024-10-30,Lisa Jackson,Estudiantes del Sur,"Tried my best, but still benched again.",fatigue,1,post_training_note,media,3
+876,2024-09-06,Margaret Coleman,Tigre Azul,"Tried my best, but still benched again.",motivation,3,post_training_note,training,2
+877,2024-11-03,Jessica Callahan,Academia FC,Worried about re-injury. It is always on my mind.,fatigue,3,psychologist_report,family,2
+878,2024-07-08,Cheyenne Horton,Atletico Laguna,Coach keeps yelling but never asks what is going on with me.,frustration,5,psychologist_report,media,5
+879,2024-10-30,Michael Bradshaw,Defensa Joven,What if this injury never heals properly?,fatigue,2,post_training_note,media,3
+880,2024-09-02,Jasmin Alvarado,Tigre Azul,Thinking too much before matches. Anxiety is high.,frustration,2,interview,media,2
+881,2024-06-17,Barbara Dudley,Boca Norte,I am grateful but emotionally distant today.,euphoria,4,psychologist_report,contract,1
+882,2024-10-08,John Young,Defensa Joven,She broke up with me last night. No energy for training.,fatigue,1,internal_chat,media,1
+883,2025-06-03,David Davis,Boca Norte,Social media attacks make me want to quit.,fatigue,4,interview,contract,3
+884,2024-07-15,John Bishop,Boca Norte,Social media attacks make me want to quit.,fatigue,2,interview,travel,4
+885,2025-04-28,Abigail Shaffer,Atletico Laguna,Parents expect too much. I feel pressure daily.,insecurity,3,interview,matchday,1
+886,2025-03-11,Eric Carney,Academia FC,Lost focus due to stress at home.,insecurity,5,tweet,injury,5
+887,2025-02-14,David Alvarez,Atletico Laguna,Pretending to be okay in front of everyone is exhausting.,fatigue,5,post_training_note,recovery,3
+888,2024-10-15,Michelle Harmon,Estudiantes del Sur,Barely slept because of family drama. Cannot focus.,resilience,2,tweet,matchday,2
+889,2025-04-10,Cristian Santos,Juventus U21,Coach keeps yelling but never asks what is going on with me.,insecurity,1,interview,training,1
+890,2024-08-02,Michael Bradshaw,Defensa Joven,I hide my back pain to avoid being benched.,fatigue,3,psychologist_report,matchday,3
+891,2024-07-30,Lisa Hensley,Estudiantes del Sur,Worried about re-injury. It is always on my mind.,motivation,5,psychologist_report,training,3
+892,2024-06-21,Gerald Hensley,Juventus U21,Coach complimented me but I still doubt myself.,anxiety,4,interview,media,4
+893,2024-09-26,Timothy Duncan,New Age United,Drank last night. Regret it already.,fatigue,4,internal_chat,recovery,2
+894,2025-05-29,David Douglas Jr.,Boca Norte,Thinking too much before matches. Anxiety is high.,fatigue,2,internal_chat,family,2
+895,2025-04-25,James Ferrell,Boca Norte,I am grateful but emotionally distant today.,resilience,1,tweet,family,2
+896,2024-12-07,Brian Rodriguez,Real Cordoba,Worried about re-injury. It is always on my mind.,confidence,2,interview,travel,5
+897,2025-03-04,Brian Rodriguez,Real Cordoba,Pretending to be okay in front of everyone is exhausting.,anxiety,5,post_training_note,contract,3
+898,2025-04-25,Shannon Jones,Real Cordoba,Drank last night. Regret it already.,frustration,1,internal_chat,training,5
+899,2024-07-30,Jeremy Reed,Atletico Laguna,Parents expect too much. I feel pressure daily.,motivation,4,psychologist_report,matchday,5
+900,2025-03-28,Carla Gray,Boca Norte,Drank last night. Regret it already.,anxiety,3,post_training_note,matchday,3
+901,2025-03-08,Diane Evans,Real Cordoba,Social media attacks make me want to quit.,insecurity,4,internal_chat,contract,2
+902,2024-12-06,Noah Rhodes,Boca Norte,Social media attacks make me want to quit.,frustration,5,interview,injury,3
+903,2024-11-28,Jamie Walton,Atletico Laguna,I am grateful but emotionally distant today.,motivation,1,tweet,injury,4
+904,2025-01-31,Fred Smith,Real Cordoba,"Tried my best, but still benched again.",euphoria,2,interview,matchday,3
+905,2024-06-09,Daniel Salinas,Futbol Total,"Tried my best, but still benched again.",insecurity,1,tweet,recovery,3
+906,2025-05-24,Anthony Humphrey,Real Cordoba,Barely slept because of family drama. Cannot focus.,anxiety,1,psychologist_report,matchday,1
+907,2024-07-07,April Frost,Real Cordoba,I am grateful but emotionally distant today.,frustration,5,tweet,recovery,4
+908,2024-06-14,Shelly Alexander,Real Cordoba,Coach keeps yelling but never asks what is going on with me.,motivation,3,internal_chat,injury,1
+909,2024-09-14,Patty Perez,Boca Norte,Pretending to be okay in front of everyone is exhausting.,euphoria,5,post_training_note,media,2
+910,2024-08-29,Laura Haney,Futbol Total,Worried about re-injury. It is always on my mind.,motivation,2,post_training_note,matchday,2
+911,2025-04-27,Matthew Moon,Estudiantes del Sur,She broke up with me last night. No energy for training.,euphoria,2,internal_chat,media,4
+912,2024-08-04,Judy Baker,Atletico Laguna,Pretending to be okay in front of everyone is exhausting.,confidence,5,psychologist_report,training,5
+913,2025-01-06,Shannon Jones,Juventus U21,Social media attacks make me want to quit.,euphoria,1,psychologist_report,travel,3
+914,2025-06-07,Joshua Cooke,Boca Norte,Thinking too much before matches. Anxiety is high.,frustration,5,interview,media,1
+915,2025-03-16,Michael Powell,Futbol Total,She broke up with me last night. No energy for training.,anxiety,3,internal_chat,training,4
+916,2025-01-29,Cheyenne Horton,New Age United,"Team is winning, but I feel alone.",anxiety,3,interview,media,1
+917,2024-12-28,Matthew Moore,Futbol Total,I love the game but feel lost lately.,motivation,2,internal_chat,travel,3
+918,2024-11-18,Kelly Donovan,Tigre Azul,Social media attacks make me want to quit.,frustration,1,internal_chat,media,5
+919,2024-07-20,Philip Cannon,Estudiantes del Sur,"Tried my best, but still benched again.",insecurity,4,psychologist_report,contract,1
+920,2025-04-04,Lauren Daniels,Atletico Laguna,Tired of training. It feels like a loop.,confidence,4,psychologist_report,media,4
+921,2024-09-26,Carla Gray,Estudiantes del Sur,What if this injury never heals properly?,confidence,5,internal_chat,family,3
+922,2024-09-07,Lawrence Adkins,Boca Norte,Coach keeps yelling but never asks what is going on with me.,euphoria,2,internal_chat,training,3
+923,2024-10-01,Dr. Hannah Patterson,Academia FC,Tired of training. It feels like a loop.,euphoria,4,psychologist_report,family,5
+924,2024-07-24,Stephanie Ross,Futbol Total,Pretending to be okay in front of everyone is exhausting.,anxiety,4,post_training_note,media,4
+925,2024-06-25,Mike Allen,Tigre Azul,She broke up with me last night. No energy for training.,resilience,3,psychologist_report,travel,3
+926,2024-09-07,Cameron Fisher,Defensa Joven,Coach complimented me but I still doubt myself.,confidence,1,internal_chat,matchday,1
+927,2024-11-17,Matthew Moore,New Age United,What if this injury never heals properly?,motivation,4,interview,training,2
+928,2025-02-10,Sherri Baker,Futbol Total,Parents expect too much. I feel pressure daily.,resilience,4,psychologist_report,injury,4
+929,2025-04-11,Ashley Waller,Juventus U21,Thinking too much before matches. Anxiety is high.,euphoria,1,psychologist_report,travel,1
+930,2025-02-03,Rebecca Valencia,Boca Norte,I hide my back pain to avoid being benched.,frustration,4,interview,recovery,5
+931,2024-12-01,Stephanie Ross,Boca Norte,Media keeps targeting me even after good games.,euphoria,5,post_training_note,media,5
+932,2024-07-01,Adam Vaughan,Defensa Joven,Media keeps targeting me even after good games.,confidence,2,tweet,family,3
+933,2024-07-20,Christine Wright,Defensa Joven,Media keeps targeting me even after good games.,motivation,5,internal_chat,family,5
+934,2025-04-27,William Baker,Juventus U21,Parents expect too much. I feel pressure daily.,confidence,4,psychologist_report,injury,2
+935,2025-05-24,Julia Torres,Atletico Laguna,Coach complimented me but I still doubt myself.,anxiety,5,psychologist_report,contract,1
+936,2024-12-18,Angelica Tucker,Boca Norte,Tired of training. It feels like a loop.,confidence,2,interview,recovery,4
+937,2025-01-24,Andrew Reynolds,Atletico Laguna,Coach keeps yelling but never asks what is going on with me.,insecurity,2,psychologist_report,injury,3
+938,2025-01-01,Elizabeth Oliver DDS,Estudiantes del Sur,I hide my back pain to avoid being benched.,anxiety,5,internal_chat,travel,4
+939,2024-06-13,Ethan Adams,Tigre Azul,Social media attacks make me want to quit.,motivation,4,interview,travel,1
+940,2025-02-07,Donna Landry,Juventus U21,Parents expect too much. I feel pressure daily.,confidence,2,internal_chat,matchday,2
+941,2024-12-24,Dr. William Warren,Futbol Total,Media keeps targeting me even after good games.,resilience,3,psychologist_report,training,1
+942,2025-01-16,Gabrielle Davis,Real Cordoba,"Tried my best, but still benched again.",anxiety,4,interview,matchday,1
+943,2024-09-08,Christopher Parker,Real Cordoba,Media keeps targeting me even after good games.,insecurity,2,tweet,recovery,3
+944,2025-03-13,Allison Hill,Juventus U21,I am grateful but emotionally distant today.,resilience,5,internal_chat,family,4
+945,2024-08-01,Justin Torres,Atletico Laguna,Coach complimented me but I still doubt myself.,euphoria,1,interview,injury,1
+946,2024-09-28,Zachary Hicks,Academia FC,Lost focus due to stress at home.,motivation,1,post_training_note,injury,1
+947,2024-11-20,Sara Johnston,Estudiantes del Sur,She broke up with me last night. No energy for training.,resilience,3,psychologist_report,training,2
+948,2024-06-07,Carolyn Miller,Futbol Total,Media keeps targeting me even after good games.,resilience,2,interview,training,5
+949,2025-01-31,Shannon Rivera,Estudiantes del Sur,Barely slept because of family drama. Cannot focus.,euphoria,3,tweet,family,2
+950,2024-10-22,Kathleen Moran,Boca Norte,Drank last night. Regret it already.,motivation,1,tweet,injury,4
+951,2024-09-08,Susan Serrano,Real Cordoba,Tired of training. It feels like a loop.,frustration,4,interview,family,4
+952,2025-01-14,Susan Serrano,Estudiantes del Sur,Lost focus due to stress at home.,frustration,2,post_training_note,training,3
+953,2024-11-15,Fred Smith,Boca Norte,What if this injury never heals properly?,fatigue,1,internal_chat,media,5
+954,2024-08-18,David Douglas Jr.,Juventus U21,Media keeps targeting me even after good games.,confidence,2,psychologist_report,matchday,4
+955,2025-02-20,David Wright,Boca Norte,Nights are sleepless before matchday.,anxiety,4,tweet,travel,5
+956,2025-02-21,Michael Warner,Tigre Azul,"Tried my best, but still benched again.",euphoria,1,internal_chat,contract,2
+957,2024-07-10,Kimberly Gibson,Defensa Joven,"Team is winning, but I feel alone.",resilience,3,post_training_note,recovery,4
+958,2024-12-27,Michael Lyons,Atletico Laguna,I love the game but feel lost lately.,anxiety,3,psychologist_report,family,1
+959,2024-10-25,William Herrera,Real Cordoba,Lost focus due to stress at home.,fatigue,1,psychologist_report,injury,4
+960,2024-07-03,Joyce Solis,Real Cordoba,What if this injury never heals properly?,anxiety,5,tweet,media,5
+961,2024-12-28,Aimee Montoya,New Age United,What if this injury never heals properly?,euphoria,1,internal_chat,injury,4
+962,2025-01-04,Ryan Gonzalez,New Age United,Parents expect too much. I feel pressure daily.,fatigue,3,psychologist_report,contract,3
+963,2024-12-21,Carolyn Miller,Tigre Azul,Thinking too much before matches. Anxiety is high.,resilience,2,tweet,recovery,1
+964,2025-04-08,Wayne Morgan,New Age United,Nights are sleepless before matchday.,fatigue,1,internal_chat,travel,3
+965,2024-12-21,Kristen Davis,New Age United,Parents expect too much. I feel pressure daily.,resilience,2,internal_chat,injury,2
+966,2025-01-08,Pamela Boyd,Real Cordoba,"Tried my best, but still benched again.",anxiety,5,post_training_note,injury,4
+967,2024-06-14,Richard Aguirre,Real Cordoba,She broke up with me last night. No energy for training.,anxiety,5,internal_chat,family,4
+968,2024-11-05,Lisa Hensley,Boca Norte,Coach complimented me but I still doubt myself.,euphoria,4,tweet,training,2
+969,2025-05-12,Alyssa Day,Tigre Azul,Coach complimented me but I still doubt myself.,euphoria,5,interview,contract,3
+970,2024-12-06,Patricia Rodriguez,Futbol Total,Coach keeps yelling but never asks what is going on with me.,frustration,5,post_training_note,training,1
+971,2024-06-23,Timothy Romero,Boca Norte,Barely slept because of family drama. Cannot focus.,confidence,3,interview,matchday,3
+972,2025-02-08,Lindsay Martinez,Boca Norte,Media keeps targeting me even after good games.,insecurity,3,post_training_note,injury,5
+973,2024-11-04,Abigail Shaffer,Atletico Laguna,Lost focus due to stress at home.,resilience,3,post_training_note,training,3
+974,2024-10-29,Richard Rodriguez,Real Cordoba,"Team is winning, but I feel alone.",confidence,3,psychologist_report,travel,1
+975,2024-09-13,Melissa Martinez,New Age United,I love the game but feel lost lately.,frustration,2,psychologist_report,family,4
+976,2025-03-24,Brandon Bailey MD,Academia FC,Thinking too much before matches. Anxiety is high.,frustration,5,post_training_note,training,3
+977,2024-06-13,Daniel Wagner,Boca Norte,Drank last night. Regret it already.,insecurity,2,interview,recovery,2
+978,2024-10-23,David Smith,New Age United,Barely slept because of family drama. Cannot focus.,anxiety,4,tweet,recovery,1
+979,2025-04-09,Patty Perez,Atletico Laguna,I love the game but feel lost lately.,fatigue,4,interview,recovery,4
+980,2024-07-03,Garrett Lin,Tigre Azul,Coach keeps yelling but never asks what is going on with me.,anxiety,3,tweet,recovery,1
+981,2024-10-18,Donald Wright,Atletico Laguna,"Team is winning, but I feel alone.",anxiety,4,psychologist_report,matchday,2
+982,2024-09-08,Gerald Hensley,Atletico Laguna,Social media attacks make me want to quit.,frustration,5,tweet,recovery,5
+983,2025-03-18,Briana Murray,Boca Norte,Drank last night. Regret it already.,confidence,1,tweet,matchday,1
+984,2025-02-17,Mary Marshall,New Age United,I love the game but feel lost lately.,motivation,2,tweet,recovery,1
+985,2025-02-05,William Baker,Defensa Joven,What if this injury never heals properly?,motivation,3,tweet,travel,3
+986,2024-07-17,Angela Vaughn,Tigre Azul,"Tried my best, but still benched again.",fatigue,5,internal_chat,contract,2
+987,2025-04-02,Christina Walters,Juventus U21,Coach complimented me but I still doubt myself.,anxiety,5,tweet,injury,2
+988,2025-01-18,Brenda Hall,Atletico Laguna,Lost focus due to stress at home.,frustration,5,interview,injury,5
+989,2025-03-19,Lauren Daniels,Tigre Azul,Media keeps targeting me even after good games.,fatigue,3,post_training_note,travel,2
+990,2025-03-27,Nicole Herring,New Age United,Pretending to be okay in front of everyone is exhausting.,euphoria,2,interview,contract,1
+991,2024-10-14,Aaron Wise,Academia FC,Coach complimented me but I still doubt myself.,frustration,4,post_training_note,training,5
+992,2024-07-28,John Daniel,New Age United,Coach keeps yelling but never asks what is going on with me.,confidence,3,tweet,injury,2
+993,2024-06-24,Whitney Peters,Real Cordoba,Coach complimented me but I still doubt myself.,resilience,2,tweet,matchday,5
+994,2024-10-21,Victoria Garcia,Futbol Total,Media keeps targeting me even after good games.,anxiety,2,tweet,media,2
+995,2025-01-05,Sierra Johnson,New Age United,Worried about re-injury. It is always on my mind.,insecurity,1,internal_chat,matchday,2
+996,2024-10-16,Frank Cordova,Boca Norte,She broke up with me last night. No energy for training.,euphoria,1,internal_chat,matchday,3
+997,2025-04-18,Andrew Avila,Juventus U21,Drank last night. Regret it already.,motivation,1,tweet,matchday,2
+998,2025-02-11,Eric Carney,Juventus U21,Coach complimented me but I still doubt myself.,euphoria,5,psychologist_report,media,5
+999,2024-08-13,Robert Oconnell,Tigre Azul,Worried about re-injury. It is always on my mind.,anxiety,3,interview,injury,1
+1000,2025-04-25,Alexander Collins,New Age United,Tired of training. It feels like a loop.,euphoria,5,interview,training,3
+1001,2025-04-05,Jessica Holmes,Estudiantes del Sur,Coach keeps yelling but never asks what is going on with me.,euphoria,2,tweet,media,2
+1002,2025-02-27,Matthew Moore,Tigre Azul,Pretending to be okay in front of everyone is exhausting.,euphoria,5,post_training_note,injury,2
+1003,2024-12-04,John Whitehead,Real Cordoba,Pretending to be okay in front of everyone is exhausting.,anxiety,3,post_training_note,travel,5
+1004,2025-03-04,Sharon Cochran,Academia FC,I hide my back pain to avoid being benched.,insecurity,1,tweet,training,3
+1005,2024-12-09,Sara Johnston,Juventus U21,Tired of training. It feels like a loop.,anxiety,4,tweet,family,2
+1006,2025-02-07,Elaine Brooks,Tigre Azul,Worried about re-injury. It is always on my mind.,resilience,4,internal_chat,travel,1
+1007,2024-08-16,Joyce Solis,Real Cordoba,Coach complimented me but I still doubt myself.,fatigue,4,psychologist_report,travel,1
+1008,2025-04-18,Kathy Rivas,Boca Norte,Barely slept because of family drama. Cannot focus.,frustration,4,tweet,media,2
+1009,2024-07-29,Abigail Shaffer,Real Cordoba,Pretending to be okay in front of everyone is exhausting.,insecurity,4,interview,training,1
+1010,2024-07-01,Gerald Hensley,New Age United,I am grateful but emotionally distant today.,insecurity,5,internal_chat,media,3
+1011,2025-03-12,Nathan Maldonado,Defensa Joven,Barely slept because of family drama. Cannot focus.,resilience,2,interview,travel,2
+1012,2025-04-04,Connor West,Futbol Total,"Team is winning, but I feel alone.",confidence,3,interview,family,5
+1013,2024-12-01,Erin Warner,Defensa Joven,Social media attacks make me want to quit.,insecurity,4,interview,family,3
+1014,2024-06-21,Sarah Moore,Real Cordoba,Pretending to be okay in front of everyone is exhausting.,frustration,3,post_training_note,recovery,1
+1015,2024-09-28,Victor Baker,New Age United,Coach keeps yelling but never asks what is going on with me.,frustration,1,internal_chat,recovery,2
+1016,2024-08-24,Michele Williams,New Age United,I am grateful but emotionally distant today.,resilience,2,tweet,training,3
+1017,2024-06-24,Brittany Farmer,Academia FC,Social media attacks make me want to quit.,confidence,2,tweet,recovery,1
+1018,2025-04-10,Olivia Harris,Academia FC,Drank last night. Regret it already.,resilience,5,interview,matchday,2
+1019,2024-08-23,Holly Wood,Boca Norte,Pretending to be okay in front of everyone is exhausting.,insecurity,4,tweet,travel,4
+1020,2025-05-17,Kirk Carter,Real Cordoba,She broke up with me last night. No energy for training.,motivation,2,interview,family,5
+1021,2024-06-23,Zachary Ferrell,Real Cordoba,"Team is winning, but I feel alone.",anxiety,3,post_training_note,recovery,1
+1022,2024-10-07,Timothy Duncan,Estudiantes del Sur,Social media attacks make me want to quit.,confidence,4,interview,media,1
+1023,2025-06-04,Mrs. Kristen Reyes,Tigre Azul,I am grateful but emotionally distant today.,fatigue,4,interview,travel,4
+1024,2024-10-05,Alexander Collins,Atletico Laguna,Thinking too much before matches. Anxiety is high.,motivation,1,interview,matchday,4
+1025,2024-12-24,Amber Kidd,Defensa Joven,Lost focus due to stress at home.,motivation,3,post_training_note,training,3
+1026,2024-11-08,Bailey Duran DDS,Defensa Joven,Lost focus due to stress at home.,insecurity,3,internal_chat,contract,5
+1027,2025-04-19,Michelle Evans,Futbol Total,"Tried my best, but still benched again.",frustration,1,tweet,training,5
+1028,2025-01-03,Joshua Cooke,New Age United,Coach keeps yelling but never asks what is going on with me.,resilience,1,post_training_note,travel,1
+1029,2024-12-07,David Smith,Academia FC,"Team is winning, but I feel alone.",fatigue,1,post_training_note,matchday,4
+1030,2024-09-13,Lindsey Walker,Boca Norte,I love the game but feel lost lately.,insecurity,3,interview,training,5
+1031,2024-06-21,Isaiah Avila,Juventus U21,Barely slept because of family drama. Cannot focus.,resilience,4,interview,injury,2
+1032,2025-03-26,Daniel Baker,Estudiantes del Sur,"Tried my best, but still benched again.",resilience,4,psychologist_report,recovery,5
+1033,2025-02-13,Elizabeth Fowler,Academia FC,Barely slept because of family drama. Cannot focus.,fatigue,3,internal_chat,family,1
+1034,2024-08-20,Margaret Coleman,Boca Norte,I hide my back pain to avoid being benched.,frustration,5,internal_chat,injury,5
+1035,2024-09-26,Angel Perry,Juventus U21,I love the game but feel lost lately.,confidence,4,psychologist_report,injury,3
+1036,2024-10-23,Brittany Farmer,Atletico Laguna,Tired of training. It feels like a loop.,fatigue,4,interview,injury,4
+1037,2025-05-07,Rebecca Valencia,Boca Norte,I am grateful but emotionally distant today.,fatigue,5,interview,recovery,1
+1038,2025-04-06,Amanda Jones,New Age United,Coach keeps yelling but never asks what is going on with me.,anxiety,5,post_training_note,contract,1
+1039,2024-06-25,Yvonne Chambers,Atletico Laguna,Nights are sleepless before matchday.,insecurity,5,internal_chat,contract,4
+1040,2025-05-09,Jonathan Peterson,Real Cordoba,Media keeps targeting me even after good games.,euphoria,2,tweet,travel,4
+1041,2025-02-16,Christopher Smith,Defensa Joven,Worried about re-injury. It is always on my mind.,euphoria,4,tweet,family,4
+1042,2024-10-13,Michael Evans,Atletico Laguna,Coach complimented me but I still doubt myself.,euphoria,4,psychologist_report,training,1
+1043,2024-09-21,Angela Lopez,Futbol Total,Coach keeps yelling but never asks what is going on with me.,euphoria,3,post_training_note,recovery,4
+1044,2024-07-25,Joseph Knight,Boca Norte,"Team is winning, but I feel alone.",motivation,2,psychologist_report,family,4
+1045,2025-04-13,William Baker,Tigre Azul,Drank last night. Regret it already.,fatigue,5,psychologist_report,matchday,1
+1046,2024-10-27,Jose Travis,Tigre Azul,She broke up with me last night. No energy for training.,frustration,3,interview,family,1
+1047,2024-11-23,Tricia Valencia,Boca Norte,Lost focus due to stress at home.,frustration,4,psychologist_report,contract,3
+1048,2025-05-18,Richard Aguirre,Estudiantes del Sur,Tired of training. It feels like a loop.,frustration,5,interview,family,5
+1049,2024-11-09,Cynthia Moore,Juventus U21,I hide my back pain to avoid being benched.,frustration,3,tweet,travel,2
+1050,2025-03-22,Larry Dixon,Boca Norte,Barely slept because of family drama. Cannot focus.,anxiety,1,psychologist_report,contract,1
+1051,2024-11-24,Cheyenne Horton,Real Cordoba,"Team is winning, but I feel alone.",fatigue,5,internal_chat,recovery,2
+1052,2025-05-20,Shelly Alexander,Defensa Joven,Pretending to be okay in front of everyone is exhausting.,resilience,5,post_training_note,recovery,3
+1053,2024-11-04,Michelle Evans,Atletico Laguna,Media keeps targeting me even after good games.,resilience,4,tweet,family,5
+1054,2024-10-16,Monica Herrera,Estudiantes del Sur,She broke up with me last night. No energy for training.,motivation,2,tweet,travel,5
+1055,2024-08-18,Melissa Gates,Defensa Joven,Pretending to be okay in front of everyone is exhausting.,euphoria,4,post_training_note,matchday,5
+1056,2024-12-16,Ricky Davis II,Atletico Laguna,"Tried my best, but still benched again.",frustration,2,tweet,contract,3
+1057,2025-03-02,Michael Evans,Real Cordoba,Thinking too much before matches. Anxiety is high.,insecurity,1,tweet,training,4
+1058,2024-12-17,Olivia Harris,Real Cordoba,"Team is winning, but I feel alone.",resilience,4,internal_chat,media,5
+1059,2024-10-27,Daniel Kennedy,Academia FC,Worried about re-injury. It is always on my mind.,resilience,4,interview,injury,5
+1060,2025-05-31,Christopher Parker,Tigre Azul,She broke up with me last night. No energy for training.,anxiety,4,psychologist_report,matchday,3
+1061,2025-04-12,David Martinez,Futbol Total,"Tried my best, but still benched again.",resilience,5,internal_chat,training,4
+1062,2024-12-25,Kelly Donovan,Futbol Total,Tired of training. It feels like a loop.,anxiety,5,post_training_note,injury,5
+1063,2024-09-18,Susan Serrano,Real Cordoba,Media keeps targeting me even after good games.,fatigue,2,interview,injury,5
+1064,2025-04-14,Amber Wright,Futbol Total,Worried about re-injury. It is always on my mind.,insecurity,3,psychologist_report,travel,4
+1065,2024-07-09,Angelica Keith,Estudiantes del Sur,I hide my back pain to avoid being benched.,motivation,1,interview,contract,1
+1066,2025-03-16,Philip Cannon,Real Cordoba,Barely slept because of family drama. Cannot focus.,fatigue,2,internal_chat,travel,1
+1067,2024-11-18,Bailey Duran DDS,Estudiantes del Sur,Drank last night. Regret it already.,anxiety,1,tweet,media,5
+1068,2024-07-07,David Smith,Juventus U21,Coach keeps yelling but never asks what is going on with me.,insecurity,4,post_training_note,training,2
+1069,2024-11-21,Garrett Lin,Futbol Total,Barely slept because of family drama. Cannot focus.,fatigue,3,post_training_note,travel,4
+1070,2025-01-26,Tracy House,Boca Norte,Barely slept because of family drama. Cannot focus.,euphoria,3,psychologist_report,travel,4
+1071,2025-04-22,Denise Jacobs,Boca Norte,Media keeps targeting me even after good games.,motivation,3,tweet,contract,2
+1072,2024-08-16,Jessica Stephens,Futbol Total,Lost focus due to stress at home.,confidence,1,internal_chat,recovery,4
+1073,2025-01-04,James Brown,Defensa Joven,I am grateful but emotionally distant today.,euphoria,4,post_training_note,family,3
+1074,2024-09-29,Cassandra Gaines,Juventus U21,Nights are sleepless before matchday.,motivation,1,tweet,contract,4
+1075,2024-10-09,Matthew Moon,Defensa Joven,Coach complimented me but I still doubt myself.,motivation,1,tweet,travel,4
+1076,2024-07-16,Brenda Hall,Boca Norte,Lost focus due to stress at home.,anxiety,5,internal_chat,media,4
+1077,2024-07-08,Daniel Kennedy,New Age United,Tired of training. It feels like a loop.,confidence,3,post_training_note,media,1
+1078,2024-10-12,Philip Cannon,Defensa Joven,Tired of training. It feels like a loop.,insecurity,2,tweet,training,3
+1079,2025-02-18,Paul Castaneda,Tigre Azul,Media keeps targeting me even after good games.,confidence,3,tweet,travel,4
+1080,2024-09-29,Amber Wright,Atletico Laguna,Coach complimented me but I still doubt myself.,fatigue,5,tweet,travel,3
+1081,2024-10-04,Zachary Ferrell,Defensa Joven,Social media attacks make me want to quit.,anxiety,5,post_training_note,matchday,3
+1082,2024-11-27,Aaron Wise,New Age United,She broke up with me last night. No energy for training.,euphoria,2,internal_chat,recovery,3
+1083,2025-01-27,Daniel Kennedy,New Age United,Parents expect too much. I feel pressure daily.,insecurity,1,post_training_note,matchday,2
+1084,2025-03-12,Kirk Carter,Defensa Joven,Nights are sleepless before matchday.,confidence,4,post_training_note,training,4
+1085,2024-11-19,Sarah Moore,Juventus U21,Lost focus due to stress at home.,frustration,2,tweet,media,1
+1086,2024-08-10,Shirley Suarez,Academia FC,Drank last night. Regret it already.,euphoria,5,internal_chat,media,1
+1087,2025-03-01,Katherine Salas,Juventus U21,I hide my back pain to avoid being benched.,confidence,1,tweet,matchday,1
+1088,2024-11-26,Joyce Solis,Juventus U21,I am grateful but emotionally distant today.,resilience,5,internal_chat,injury,1
+1089,2024-10-21,Steve Sanchez,Tigre Azul,Worried about re-injury. It is always on my mind.,confidence,4,post_training_note,family,4
+1090,2024-11-27,Angie Henderson,Defensa Joven,She broke up with me last night. No energy for training.,confidence,3,interview,media,1
+1091,2024-06-23,Evelyn Galvan,Tigre Azul,"Tried my best, but still benched again.",resilience,1,internal_chat,travel,3
+1092,2025-03-16,Shane Henderson,Boca Norte,Drank last night. Regret it already.,anxiety,2,post_training_note,training,2
+1093,2025-05-10,Monica Herrera,Futbol Total,What if this injury never heals properly?,insecurity,4,tweet,media,5
+1094,2025-05-27,Gerald Hensley,Atletico Laguna,Social media attacks make me want to quit.,insecurity,3,interview,media,1
+1095,2024-10-21,Ashley Barton,Juventus U21,Lost focus due to stress at home.,euphoria,4,post_training_note,travel,5
+1096,2025-01-31,Brandon Bailey MD,Atletico Laguna,I love the game but feel lost lately.,insecurity,1,post_training_note,injury,5
+1097,2024-11-22,Anna Henderson,Boca Norte,"Team is winning, but I feel alone.",frustration,1,interview,injury,5
+1098,2024-09-21,David Davis,Futbol Total,Media keeps targeting me even after good games.,confidence,5,interview,training,3
+1099,2025-02-10,Kathy Rivas,Real Cordoba,"Team is winning, but I feel alone.",frustration,4,tweet,media,1
+1100,2025-04-10,Amber Kidd,Atletico Laguna,I hide my back pain to avoid being benched.,insecurity,3,interview,matchday,4
