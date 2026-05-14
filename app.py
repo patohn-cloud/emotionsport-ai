@@ -5,7 +5,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import LabelEncoder
-import xgboost as xgb
 import plotly.express as px
 from datetime import datetime
 import warnings
@@ -105,14 +104,15 @@ def train_models(df):
     emotion_model.fit(X_tfidf, y_emotion)
     fatigue_model = RandomForestRegressor(n_estimators=100, random_state=42)
     fatigue_model.fit(X_tfidf, df['fatigue_level'])
-    motivation_model = xgb.XGBRegressor(n_estimators=100, random_state=42)
+    # Use RandomForest for motivation too (instead of XGBoost)
+    motivation_model = RandomForestRegressor(n_estimators=100, random_state=42)
     motivation_model.fit(X_tfidf, df['motivation_level'])
     return emotion_model, tfidf, emotion_encoder, fatigue_model, motivation_model
 
 # Crisis detection
 CRISIS_WORDS = {
     'suicide': ['suicide', 'kill myself', 'end my life', 'want to die', 'self harm'],
-    'depression': ['depression', 'depressed', 'hopeless'],
+    'depression': ['depression', 'depressed', 'hopeless', 'worthless'],
     'anxiety': ['panic', 'terrified', 'scared to death']
 }
 
@@ -148,13 +148,16 @@ with col_main:
     
     if st.button(f"{t('predict')}", type="primary"):
         if user_input.strip():
-            # Crisis check
+            # Crisis check FIRST
             crisis, crisis_type = check_crisis(user_input)
             
             if crisis:
-                st.error(f"{t('critical')}")
+                st.error(f"🚨 {t('critical')} 🚨")
                 st.error(f"Detected: {crisis_type.upper()}")
-                st.markdown("Emergency: 911 | Crisis Lifeline: 988")
+                st.markdown("**Immediate Actions:**")
+                st.markdown("- Do not leave athlete alone")
+                st.markdown("- Contact team psychologist immediately")
+                st.markdown("- Emergency: 911 | Crisis Lifeline: 988")
             
             # ML predictions
             input_vec = tfidf.transform([user_input])
@@ -174,23 +177,31 @@ with col_main:
             with col_r3:
                 st.metric(t('motivation'), f"{motivation_score:.1f}/5")
             
-            # Interventions
+            # Interventions based on Word document
+            st.markdown("---")
             if crisis:
-                st.error(f"**{t('critical')}**")
+                st.error(f"**{t('critical')} - Immediate psychiatric referral needed**")
             elif fatigue_score >= 4:
                 st.warning(f"**{t('warning')}**")
-                st.markdown("- Reduce training load by 40 percent")
-                st.markdown("- Ensure 8+ hours sleep")
+                st.markdown("**Fatigue Intervention:**")
+                st.markdown("- Reduce training load by 40% for 48 hours")
+                st.markdown("- Ensure 8+ hours of sleep")
+                st.markdown("- Schedule recovery session")
             elif emotion in ['Anxiety', 'Frustration'] and confidence > 70:
                 st.warning(f"**{t('warning')}**")
-                st.markdown("- Schedule coach meeting")
-                st.markdown("- Mindfulness exercises")
+                st.markdown("**Emotional Support Intervention:**")
+                st.markdown("- Schedule one-on-one coach meeting")
+                st.markdown("- Practice mindfulness exercises")
+                st.markdown("- Adjust short-term goals")
             elif motivation_score <= 2:
                 st.warning(f"**{t('warning')}**")
-                st.markdown("- Set 3 small goals")
+                st.markdown("**Motivation Intervention:**")
+                st.markdown("- Set 3 small achievable goals")
                 st.markdown("- Review past successes")
+                st.markdown("- Team encouragement session")
             else:
                 st.success(f"**{t('normal')}**")
+                st.markdown("Continue standard monitoring and regular check-ins")
             
             # Save history
             if 'history' not in st.session_state:
@@ -200,7 +211,8 @@ with col_main:
                 'emotion': emotion,
                 'fatigue': round(float(fatigue_score), 1),
                 'motivation': round(float(motivation_score), 1),
-                'time': datetime.now().strftime('%H:%M')
+                'time': datetime.now().strftime('%H:%M'),
+                'crisis': crisis
             })
             st.session_state.history = st.session_state.history[:10]
         else:
@@ -209,6 +221,7 @@ with col_main:
 with col_dash:
     st.markdown(f"### {t('stats')}")
     
+    # Emotion distribution chart
     emotion_counts = df['main_emotion'].value_counts().head(6)
     fig = px.bar(x=emotion_counts.values, y=emotion_counts.index, orientation='h')
     fig.update_layout(height=300, margin=dict(l=0, r=0, t=30, b=0))
@@ -217,11 +230,13 @@ with col_dash:
     st.markdown(f"### {t('history')}")
     if 'history' in st.session_state and st.session_state.history:
         for h in st.session_state.history[:5]:
-            st.markdown(f"**{h['time']}** - {h['emotion']} | F:{h['fatigue']} M:{h['motivation']}")
+            crisis_flag = "🚨 " if h.get('crisis', False) else ""
+            st.markdown(f"**{h['time']}** - {crisis_flag}{h['emotion']} | F:{h['fatigue']} M:{h['motivation']}")
             st.caption(f"{h['text']}...")
             st.markdown("---")
     else:
         st.info("No predictions yet")
 
+# Footer
 st.markdown("---")
-st.caption("EmotionSport AI | DistilBERT (Emotion) + Random Forest (Fatigue) + XGBoost (Motivation)")
+st.caption("EmotionSport AI | Emotion: Logistic Regression | Fatigue: Random Forest | Motivation: Random Forest | Crisis Detection: Keyword-based")
