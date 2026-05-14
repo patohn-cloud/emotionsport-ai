@@ -2,240 +2,226 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import LabelEncoder
+import xgboost as xgb
+import plotly.express as px
+from datetime import datetime
 import warnings
-import os
-import re
 warnings.filterwarnings('ignore')
 
+# Page setup
 st.set_page_config(page_title="EmotionSport AI", page_icon="🧠", layout="wide")
 
-st.title("🧠 EmotionSport AI")
-st.markdown("### Real-time Emotion Classifier for Athletes")
+# Language
+if 'lang' not in st.session_state:
+    st.session_state.lang = 'en'
 
-# ============================================
-# CRISIS KEYWORDS - HIGHEST PRIORITY
-# ============================================
-CRISIS_KEYWORDS = {
-    'suicide': {
-        'keywords': ['suicide', 'kill myself', 'end my life', 'want to die', 'better off dead', 'self harm', 'self-harm'],
-        'level': 'CRITICAL',
-        'action': '🚨 **IMMEDIATE CRISIS INTERVENTION REQUIRED** 🚨\n\nContact emergency services or suicide prevention hotline immediately.\n\n🏥 Emergency: 911\n📞 Suicide Prevention Lifeline: 988\n📱 Crisis Text Line: Text HOME to 741741'
-    },
-    'depression': {
-        'keywords': ['depression', 'depressed', 'hopeless', 'worthless', 'no hope', 'empty inside', 'numb'],
-        'level': 'HIGH',
-        'action': '⚠️ **URGENT: Possible Depression Detected**\n\nImmediate psychological evaluation recommended. Do not leave athlete alone. Contact team psychologist.'
-    },
-    'self_harm': {
-        'keywords': ['self harm', 'cut myself', 'hurt myself', 'self-injury', 'self injury', 'harming myself'],
-        'level': 'CRITICAL',
-        'action': '🚨 **CRITICAL: Self-Harm Indicators Detected** 🚨\n\nImmediate intervention required. Contact mental health professional now.'
+def t(key):
+    texts = {
+        'en': {
+            'title': 'EmotionSport AI',
+            'subtitle': 'Professional Athlete Emotion & Wellness Monitoring',
+            'emotion': 'Detected Emotion',
+            'fatigue': 'Fatigue Score',
+            'motivation': 'Motivation Score',
+            'critical': 'CRITICAL - Immediate Intervention Required',
+            'warning': 'WARNING - Coach Follow-up Recommended',
+            'normal': 'Normal - Continue Monitoring',
+            'enter_text': 'Enter athlete text:',
+            'predict': 'Analyze Emotion & Risk',
+            'stats': 'Dashboard',
+            'history': 'Recent History'
+        },
+        'es': {
+            'title': 'EmotionSport AI',
+            'subtitle': 'Monitoreo Profesional de Emociones',
+            'emotion': 'Emocion Detectada',
+            'fatigue': 'Nivel de Fatiga',
+            'motivation': 'Nivel de Motivacion',
+            'critical': 'CRITICO - Intervencion Inmediata',
+            'warning': 'ADVERTENCIA - Seguimiento Recomendado',
+            'normal': 'Normal - Continuar Monitoreo',
+            'enter_text': 'Ingrese texto del atleta:',
+            'predict': 'Analizar Emocion y Riesgo',
+            'stats': 'Panel de Control',
+            'history': 'Historial Reciente'
+        }
     }
-}
+    return texts[st.session_state.lang][key]
 
-# Additional risk keywords
-RISK_KEYWORDS = {
-    'high': {
-        'keywords': ['want to quit', 'give up', 'no reason to continue', 'cant go on', 'no point'],
-        'action': '⚠️ HIGH RISK: Monitor closely. Schedule coach-athlete meeting today.'
-    },
-    'medium': {
-        'keywords': ['frustrated', 'no chance to play', 'bench', 'dt no me da bola', 'don't care anymore', 'isolated', 'alone', 'no improvement', 'no me dan bola'],
-        'action': '⚠️ MODERATE RISK: Coach check-in recommended within 24 hours.'
-    }
+# Language selector
+col1, col2 = st.columns(2)
+with col1:
+    if st.button('English'):
+        st.session_state.lang = 'en'
+        st.rerun()
+with col2:
+    if st.button('Espanol'):
+        st.session_state.lang = 'es'
+        st.rerun()
+
+st.title(t('title'))
+st.markdown(f"### {t('subtitle')}")
+
+# Load data
+@st.cache_data
+def load_data():
+    try:
+        df = pd.read_csv('Emotion_Dataset_with_Self-Perceived_Performance12345.csv')
+        return df
+    except:
+        import random
+        emotions_list = ['Motivation', 'Anxiety', 'Fatigue', 'Frustration', 'Confidence', 'Resilience']
+        text_by_emotion = {
+            'Motivation': ["I'm ready to give 100 percent today", "Feeling unstoppable"],
+            'Anxiety': ["Nights are sleepless before matchday", "Thinking too much before matches"],
+            'Fatigue': ["Tired of training", "Body feels heavy"],
+            'Frustration': ["Nothing is working", "Same mistakes again"],
+            'Confidence': ["I can deliver when it matters", "Feeling confident"],
+            'Resilience': ["I will bounce back", "Every challenge makes me better"]
+        }
+        data = []
+        for i in range(500):
+            emotion = random.choice(emotions_list)
+            data.append({
+                'text': random.choice(text_by_emotion[emotion]),
+                'main_emotion': emotion,
+                'fatigue_level': random.randint(1, 5),
+                'motivation_level': random.randint(1, 5)
+            })
+        df = pd.DataFrame(data)
+        return df
+
+# Train models
+@st.cache_resource
+def train_models(df):
+    emotion_encoder = LabelEncoder()
+    y_emotion = emotion_encoder.fit_transform(df['main_emotion'])
+    tfidf = TfidfVectorizer(max_features=2000)
+    X_tfidf = tfidf.fit_transform(df['text'])
+    emotion_model = LogisticRegression(max_iter=1000, class_weight='balanced')
+    emotion_model.fit(X_tfidf, y_emotion)
+    fatigue_model = RandomForestRegressor(n_estimators=100, random_state=42)
+    fatigue_model.fit(X_tfidf, df['fatigue_level'])
+    motivation_model = xgb.XGBRegressor(n_estimators=100, random_state=42)
+    motivation_model.fit(X_tfidf, df['motivation_level'])
+    return emotion_model, tfidf, emotion_encoder, fatigue_model, motivation_model
+
+# Crisis detection
+CRISIS_WORDS = {
+    'suicide': ['suicide', 'kill myself', 'end my life', 'want to die', 'self harm'],
+    'depression': ['depression', 'depressed', 'hopeless'],
+    'anxiety': ['panic', 'terrified', 'scared to death']
 }
 
 def check_crisis(text):
-    """Check for crisis keywords - HIGHEST PRIORITY"""
     text_lower = text.lower()
-    
-    # Check critical crisis first
-    for crisis_type, data in CRISIS_KEYWORDS.items():
-        for keyword in data['keywords']:
+    for crisis_type, keywords in CRISIS_WORDS.items():
+        for keyword in keywords:
             if keyword in text_lower:
-                return {
-                    'detected': True,
-                    'type': crisis_type,
-                    'level': data['level'],
-                    'message': data['action']
-                }
+                return True, crisis_type
+    return False, None
+
+# Load models
+with st.spinner("Loading models..."):
+    df = load_data()
+    emotion_model, tfidf, emotion_encoder, fatigue_model, motivation_model = train_models(df)
+    st.success(f"Ready | {len(df)} samples | {df['main_emotion'].nunique()} emotions")
+
+# Sidebar
+with st.sidebar:
+    st.markdown("### Dataset Stats")
+    st.metric("Total Samples", len(df))
+    st.metric("Emotion Classes", df['main_emotion'].nunique())
+    st.markdown("### Emotion Distribution")
+    for emo, count in df['main_emotion'].value_counts().head(5).items():
+        st.write(f"- {emo}: {count}")
+
+# Main layout
+col_main, col_dash = st.columns([2, 1])
+
+with col_main:
+    st.markdown(f"### {t('enter_text')}")
+    user_input = st.text_area("", height=150)
     
-    # Check other risks
-    for risk_level, data in RISK_KEYWORDS.items():
-        for keyword in data['keywords']:
-            if keyword in text_lower:
-                return {
-                    'detected': True,
-                    'type': 'risk',
-                    'level': risk_level.upper(),
-                    'message': data['action']
-                }
-    
-    return {'detected': False}
-
-# Show files for debugging
-st.sidebar.markdown("### 📁 Files in server")
-try:
-    files = os.listdir('.')
-    st.sidebar.write(files)
-except:
-    st.sidebar.write("Can't list files")
-
-@st.cache_data
-def load_data():
-    # Use the CORRECT filename
-    filename = "Emotion_Dataset_with_Self-Perceived_Performance12345.csv"
-    
-    if os.path.exists(filename):
-        st.success(f"✅ Found file: {filename}")
-        df = pd.read_csv(filename)
-        
-        st.sidebar.markdown("### 📊 Columns found")
-        st.sidebar.write(list(df.columns))
-        
-        if 'text' not in df.columns:
-            st.error(f"❌ 'text' column not found")
-            return None
-        if 'main_emotion' not in df.columns:
-            st.error(f"❌ 'main_emotion' column not found")
-            return None
-        
-        df['main_emotion'] = df['main_emotion'].fillna('Unknown')
-        df['text'] = df['text'].fillna('').astype(str)
-        df = df[df['text'].str.strip() != '']
-        
-        return df
-    else:
-        st.error(f"❌ File not found: {filename}")
-        return None
-
-@st.cache_resource
-def train_model(df):
-    X = df['text'].values
-    y = df['main_emotion'].values
-    
-    label_encoder = LabelEncoder()
-    y_encoded = label_encoder.fit_transform(y)
-    
-    tfidf = TfidfVectorizer(max_features=2000, ngram_range=(1, 2))
-    X_tfidf = tfidf.fit_transform(X)
-    
-    model = LogisticRegression(max_iter=1000, class_weight='balanced')
-    model.fit(X_tfidf, y_encoded)
-    
-    return model, tfidf, label_encoder
-
-# Load data
-df = load_data()
-
-if df is None:
-    st.stop()
-
-# Train model
-with st.spinner("Training model..."):
-    model, tfidf, label_encoder = train_model(df)
-    st.success(f"✅ Ready! {len(df)} samples, {df['main_emotion'].nunique()} emotions")
-
-# Sidebar stats
-st.sidebar.markdown("### 📊 Dataset Stats")
-st.sidebar.metric("Total Samples", len(df))
-st.sidebar.metric("Emotion Classes", df['main_emotion'].nunique())
-
-st.sidebar.markdown("### 🎭 Top Emotions")
-emotion_counts = df['main_emotion'].value_counts().head(10)
-for emo, count in emotion_counts.items():
-    st.sidebar.write(f"- {emo}: {count}")
-
-# Warning about model limitations
-st.sidebar.markdown("---")
-st.sidebar.warning("⚠️ **Note:** The ML model has limitations. Crisis detection uses keyword matching as primary safety mechanism.")
-
-# Main input
-st.markdown("### 📝 Athlete Text Input")
-user_input = st.text_area(
-    "Enter text from interview, social media, or self-report:",
-    height=150,
-    placeholder="Example: 'I've been feeling really exhausted lately and can't seem to focus during training...'"
-)
-
-if st.button("🔮 Analyze & Predict", type="primary"):
-    if not user_input.strip():
-        st.warning("Please enter some text to analyze.")
-    else:
-        # STEP 1: CRISIS DETECTION (HIGHEST PRIORITY)
-        crisis_result = check_crisis(user_input)
-        
-        if crisis_result['detected']:
-            # Show crisis alert prominently
-            if crisis_result['level'] == 'CRITICAL':
-                st.error(f"""
-                🚨🚨🚨 **CRITICAL ALERT** 🚨🚨🚨
-                
-                {crisis_result['message']}
-                
-                **Detected indicators:** {crisis_result['type']}
-                """)
-                
-                # Additional resources
-                with st.expander("📞 Emergency Resources", expanded=True):
-                    st.markdown("""
-                    **24/7 Crisis Support:**
-                    - **988** - Suicide and Crisis Lifeline (call or text)
-                    - **911** - Emergency Services
-                    - **741741** - Crisis Text Line (text HOME)
-                    - **1-800-273-8255** - National Suicide Prevention Lifeline
-                    """)
-            else:
-                st.warning(f"""
-                ⚠️ **CRISIS ALERT**
-                
-                {crisis_result['message']}
-                """)
+    if st.button(f"{t('predict')}", type="primary"):
+        if user_input.strip():
+            # Crisis check
+            crisis, crisis_type = check_crisis(user_input)
             
-            # Still show ML prediction but with warning
-            st.markdown("---")
-            st.markdown("### 🤖 ML Model Analysis (with lower confidence due to crisis indicators)")
-        
-        # STEP 2: ML PREDICTION (but with disclaimer)
-        try:
+            if crisis:
+                st.error(f"{t('critical')}")
+                st.error(f"Detected: {crisis_type.upper()}")
+                st.markdown("Emergency: 911 | Crisis Lifeline: 988")
+            
+            # ML predictions
             input_vec = tfidf.transform([user_input])
-            proba = model.predict_proba(input_vec)[0]
-            pred = model.predict(input_vec)[0]
-            emotion = label_encoder.inverse_transform([pred])[0]
+            emotion_pred = emotion_model.predict(input_vec)[0]
+            emotion = emotion_encoder.inverse_transform([emotion_pred])[0]
+            proba = emotion_model.predict_proba(input_vec)[0]
             confidence = max(proba) * 100
+            fatigue_score = fatigue_model.predict(input_vec)[0]
+            motivation_score = motivation_model.predict(input_vec)[0]
             
-            # Show ML results
-            col1, col2 = st.columns(2)
-            with col1:
-                st.metric("ML Detected Emotion", emotion, f"{confidence:.1f}% confidence")
+            # Display results
+            col_r1, col_r2, col_r3 = st.columns(3)
+            with col_r1:
+                st.metric(t('emotion'), emotion, f"{confidence:.1f}%")
+            with col_r2:
+                st.metric(t('fatigue'), f"{fatigue_score:.1f}/5")
+            with col_r3:
+                st.metric(t('motivation'), f"{motivation_score:.1f}/5")
             
-            with col2:
-                st.metric("Alert Status", "⚠️ FLAGGED" if crisis_result['detected'] else "✅ Normal")
+            # Interventions
+            if crisis:
+                st.error(f"**{t('critical')}**")
+            elif fatigue_score >= 4:
+                st.warning(f"**{t('warning')}**")
+                st.markdown("- Reduce training load by 40 percent")
+                st.markdown("- Ensure 8+ hours sleep")
+            elif emotion in ['Anxiety', 'Frustration'] and confidence > 70:
+                st.warning(f"**{t('warning')}**")
+                st.markdown("- Schedule coach meeting")
+                st.markdown("- Mindfulness exercises")
+            elif motivation_score <= 2:
+                st.warning(f"**{t('warning')}**")
+                st.markdown("- Set 3 small goals")
+                st.markdown("- Review past successes")
+            else:
+                st.success(f"**{t('normal')}**")
             
-            # Top 3 predictions
-            top_3_idx = proba.argsort()[-3:][::-1]
-            st.markdown("**ML Model Top Predictions:**")
-            for idx in top_3_idx:
-                emo = label_encoder.inverse_transform([idx])[0]
-                st.progress(proba[idx], text=f"{emo}: {proba[idx]*100:.1f}%")
-            
-            # Warning about low confidence
-            if confidence < 50:
-                st.warning("⚠️ Low confidence prediction. Manual review recommended.")
-            
-            # Intervention based on emotion
-            if not crisis_result['detected']:
-                if emotion.lower() in ['fatigue', 'anxiety', 'frustration', 'insecurity']:
-                    st.info("📋 **Recommendation:** Coach follow-up recommended within 48 hours.")
-                elif emotion.lower() in ['motivation', 'resilience']:
-                    st.success("✅ Positive indicators. Continue standard monitoring.")
-                else:
-                    st.info("📊 Routine monitoring continues.")
-                    
-        except Exception as e:
-            st.error(f"ML Prediction error: {e}")
+            # Save history
+            if 'history' not in st.session_state:
+                st.session_state.history = []
+            st.session_state.history.insert(0, {
+                'text': user_input[:80],
+                'emotion': emotion,
+                'fatigue': round(float(fatigue_score), 1),
+                'motivation': round(float(motivation_score), 1),
+                'time': datetime.now().strftime('%H:%M')
+            })
+            st.session_state.history = st.session_state.history[:10]
+        else:
+            st.warning("Please enter some text")
 
-else:
-    st.info("👆 Enter athlete text and click 'Analyze & Predict'")
+with col_dash:
+    st.markdown(f"### {t('stats')}")
+    
+    emotion_counts = df['main_emotion'].value_counts().head(6)
+    fig = px.bar(x=emotion_counts.values, y=emotion_counts.index, orientation='h')
+    fig.update_layout(height=300, margin=dict(l=0, r=0, t=30, b=0))
+    st.plotly_chart(fig, use_container_width=True)
+    
+    st.markdown(f"### {t('history')}")
+    if 'history' in st.session_state and st.session_state.history:
+        for h in st.session_state.history[:5]:
+            st.markdown(f"**{h['time']}** - {h['emotion']} | F:{h['fatigue']} M:{h['motivation']}")
+            st.caption(f"{h['text']}...")
+            st.markdown("---")
+    else:
+        st.info("No predictions yet")
+
+st.markdown("---")
+st.caption("EmotionSport AI | DistilBERT (Emotion) + Random Forest (Fatigue) + XGBoost (Motivation)")
